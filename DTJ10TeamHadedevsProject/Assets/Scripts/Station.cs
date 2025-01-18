@@ -12,8 +12,22 @@ public class Station : MonoBehaviour
     {
         //highlight onselect
         Player.onInteract += startMinigame;
+        InteractRadius.deSelect += deselect;
     }
 
+    public void OnDestroy()
+    {
+        Player.onInteract -= startMinigame;
+    }
+        
+    public void deselect()
+    {
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
+    public void select()
+    {
+        GetComponent<SpriteRenderer>().color = Color.red;
+    }
 
     public void startMinigame()
     {
