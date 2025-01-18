@@ -11,10 +11,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - UIPhysics
+  - 
   - Water
   - UI
-  - 
+  - UIPhysics
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: InFront
+    uniqueID: 1604957585
     locked: 0
   m_RenderingLayers:
   - Default

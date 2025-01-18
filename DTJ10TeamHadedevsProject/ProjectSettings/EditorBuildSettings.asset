@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Kitchen.unity
     guid: 9fae3a08601970d469011ff55591381f
   - enabled: 1
-    path: Assets/Scenes/Minigame_Dishes.unity
+    path: Assets/Scenes/Minigame_Vegetables.unity
     guid: 200e7702bf6be214685a213963c0216e
   - enabled: 1
     path: Assets/Scenes/Minigame_Meat.unity

@@ -38,10 +38,8 @@ public class Station : MonoBehaviour
         {
             
             switch (type)
-            {
-                case stationType.Sink:
-                    SceneManager.LoadSceneAsync("Minigame_Dishes", LoadSceneMode.Additive);
-                    break;
+            { 
+
                 case stationType.Fish:
                     SceneManager.LoadSceneAsync("Minigame_Fish", LoadSceneMode.Additive);
                     break;
@@ -61,11 +59,14 @@ public class Station : MonoBehaviour
 
     public enum stationType
     {
-        Sink,
         Fish,
         Meat,
         Vegetables,
-        Prep
+        Prep,
+        Storage,
+        Terminal,
+        Customer,
+        Bin
 
     }
 }

@@ -23,8 +23,7 @@ public class Player : MonoBehaviour
     private Vector3 velocity; // Velocity of the player
     private Rigidbody2D characterController; // Reference to the CharacterController component
 
-    
-  
+    public bool isChef = true;
 
     public static Player instance;
     Controls playerInput;
