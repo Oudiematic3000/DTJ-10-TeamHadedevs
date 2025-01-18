@@ -28,6 +28,5 @@ public class CustomerScript : MonoBehaviour
             target.transform.position = Vector3.zero;
             target.gameObject.SetActive(false);
         }
-        
     }
 }

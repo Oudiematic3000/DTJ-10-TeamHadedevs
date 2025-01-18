@@ -8,6 +8,7 @@ public class SeatOccupation : MonoBehaviour
     public static event Action<GameObject> occupied;
     public static event Action<GameObject> notOccupied;
     private bool satUpon = false;
+    public float waitTime = 2f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,6 +23,8 @@ public class SeatOccupation : MonoBehaviour
                 other.GetComponent<CustomerScript>().walking = false;
 
                 // Start the coroutine to wait for 10 seconds before the customer leaves
+                satUpon = true;
+                occupied(this.gameObject);
                 StartCoroutine(CustomerSitAndLeave(other.gameObject));
             }
         }
@@ -30,31 +33,13 @@ public class SeatOccupation : MonoBehaviour
     private IEnumerator CustomerSitAndLeave(GameObject customer)
     {
         // Wait for 10 seconds
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(waitTime);
 
-        // After 10 seconds, make the customer leave
-        customer.transform.SetParent(null); // Remove customer from the chair
-        customer.GetComponent<NavMeshAgent>().enabled = true; // Enable NavMeshAgent to allow walking again
+        customer.transform.SetParent(null);
+        customer.GetComponent<NavMeshAgent>().enabled = true;
         customer.GetComponent<CustomerScript>().sitting = false;
         customer.GetComponent<CustomerScript>().walking = true;
-
-        // Optionally: You can add other logic here for the customer to leave the seat
-        satUpon = false; // Set the chair as unoccupied
-        notOccupied(this.gameObject); // Trigger the notOccupied event
-    }
-
-    private void OnTransformChildrenChanged()
-    {
-        if (transform.childCount == 1)
-        {
-            occupied(this.gameObject);
-            satUpon = true;
-        }
-        else if (transform.childCount == 0)
-        {
-            notOccupied(this.gameObject);
-            satUpon = false;
-        }
+        satUpon = false;
+        notOccupied(this.gameObject);
     }
 }
-
