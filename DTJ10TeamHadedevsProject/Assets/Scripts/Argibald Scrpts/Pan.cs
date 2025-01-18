@@ -10,11 +10,15 @@ public class Pan : Minigame
     public Rigidbody2D rb;
     public float maxMeatVelocity;
     public bool cooking;
+    public GameObject center;
 
     public Slider heatGauge;
     public float heat = 0f;
     void Start()
     {
+        GameObject.Find("MeatCanvas").GetComponent<Canvas>().worldCamera=Camera.main;
+        center.transform.position = GameObject.Find("Player").transform.position;
+        meat.transform.position = new Vector3(center.transform.position.x,center.transform.position.y+2,0);
         StartCoroutine(gameTimer());
     }
     private void Update()
@@ -40,7 +44,7 @@ public class Pan : Minigame
         }
         Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         float yClamp = MousePos.y;
-        if(MousePos.y>-2)yClamp = -2f;
+        if(MousePos.y>center.transform.position.y-2)yClamp = center.transform.position.y - 2;
         rb.MovePosition(new Vector3(MousePos.x, yClamp, 0));
     }
 
