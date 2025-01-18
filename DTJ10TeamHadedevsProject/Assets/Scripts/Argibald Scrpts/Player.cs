@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Windows;
-using UnityEngine.XR;
-using UnityEditor.ShaderGraph;
+
 
 public class Player : MonoBehaviour
 {

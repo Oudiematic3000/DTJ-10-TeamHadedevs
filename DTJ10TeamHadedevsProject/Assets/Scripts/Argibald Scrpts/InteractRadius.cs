@@ -5,7 +5,12 @@ using System;
 public class InteractRadius : MonoBehaviour
 {
     public static event Action deSelect;
-    public List<Station> stions = new List<Station>();
+    public List<Station> stions;
+
+    private void Start()
+    {
+        stions = new List<Station>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Station newStat;

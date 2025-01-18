@@ -27,6 +27,11 @@ public class DishesManager : Minigame
         }
     }
 
+    private void OnDestroy()
+    {
+        inputActions.MinigameUIControls.Disable();
+    }
+
     private void OnEnable()
     {
         inputActions = new MinigameControls();
@@ -58,7 +63,7 @@ public class DishesManager : Minigame
         {
             direction.SetActive(false);
         }
-       GameObject directionObject = directions[UnityEngine.Random.Range(0, directions.Count)];
+       GameObject directionObject = directions[UnityEngine.Random.Range(0, directions.Count-1)];
         directionObject.SetActive(true);
         currentDirection=directionObject.name;
     }
