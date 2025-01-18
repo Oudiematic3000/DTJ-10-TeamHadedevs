@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 484967337}
   - component: {fileID: 484967336}
   m_Layer: 0
-  m_Name: '> (2)'
+  m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 751785979}
   - component: {fileID: 751785978}
   m_Layer: 0
-  m_Name: '>'
+  m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -644,7 +644,7 @@ GameObject:
   - component: {fileID: 868001575}
   - component: {fileID: 868001574}
   m_Layer: 0
-  m_Name: '> (3)'
+  m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -825,7 +825,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -933,7 +933,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 973089d7d05dc2a41bc1643d03662b21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directions: []
+  directions:
+  - {fileID: 751785976}
+  - {fileID: 1997564141}
+  - {fileID: 484967334}
+  - {fileID: 868001572}
+  dirtyCounterText: {fileID: 1377229361}
+  cleanCounterText: {fileID: 649435414}
 --- !u!4 &1518810453
 Transform:
   m_ObjectHideFlags: 0
@@ -966,7 +972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1652400096
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1036,7 +1042,7 @@ GameObject:
   - component: {fileID: 1997564144}
   - component: {fileID: 1997564143}
   m_Layer: 0
-  m_Name: '> (1)'
+  m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

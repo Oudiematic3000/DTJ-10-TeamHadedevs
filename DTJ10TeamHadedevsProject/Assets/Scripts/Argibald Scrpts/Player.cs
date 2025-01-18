@@ -41,7 +41,8 @@ public class Player : MonoBehaviour
     {
 
         characterController = GetComponent<Rigidbody2D>();
-
+        Station.minigameStarted += disable;
+        Minigame.endMinigameEvent += reEnable;
     }
 
     private void OnEnable()
