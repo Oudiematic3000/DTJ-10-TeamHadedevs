@@ -73,6 +73,10 @@ public class Player : MonoBehaviour
     {
         playerInput.PlayerControls.Enable();
     }
+    public void disable()
+    {
+        playerInput.PlayerControls.Disable();
+    }
 
     private void Update()
     {
