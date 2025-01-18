@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
     public static event Action onInteract;
     
 
+
     private void Awake()
     {
 
@@ -90,24 +91,15 @@ public class Player : MonoBehaviour
     {
 
         float currentSpeed;
-        
-        
-            currentSpeed = moveSpeed;
+        currentSpeed = moveSpeed;
        
         // Create a movement vector based on the input
         Vector2 move;
-        
-          
-        
-            move = new Vector2(moveInput.x, moveInput.y);
-        
-
-
-
-        // Move the character controller based on the movement vector and speed
+        move = new Vector2(moveInput.x, moveInput.y);
+         // Move the character controller based on the movement vector and speed
         characterController.linearVelocity = (move * currentSpeed);
 
-
+        
     }
 
     
