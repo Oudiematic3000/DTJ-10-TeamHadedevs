@@ -26,13 +26,15 @@ public class Player : MonoBehaviour
     private Vector3 velocity; // Velocity of the player
     private Rigidbody2D characterController; // Reference to the CharacterController component
 
-
+    
   
 
     public static Player instance;
     Controls playerInput;
     public Animator animator;
     public PlayerInput inputController;
+    public static event Action onInteract;
+    
 
     private void Awake()
     {
@@ -54,7 +56,7 @@ public class Player : MonoBehaviour
         playerInput.PlayerControls.Movement.performed += ctx => lastMove = ctx.ReadValue<Vector2>(); // Update moveInput when movement input is performed
         playerInput.PlayerControls.Movement.canceled += ctx => moveInput = Vector2.zero; // Reset moveInput when movement input is canceled
 
-        
+        playerInput.PlayerControls.Interact.performed += ctx => onInteract();
 
         
 
