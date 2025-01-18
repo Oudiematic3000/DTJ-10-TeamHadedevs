@@ -6,8 +6,8 @@ public class CustomerScript : MonoBehaviour
 {
     [SerializeField] Transform target;
     NavMeshAgent agent;
-    private bool sitting;
-    private bool walking;
+    public bool sitting;
+    public bool walking;
 
     void Start()
     {
@@ -26,6 +26,7 @@ public class CustomerScript : MonoBehaviour
         } else if (sitting)
         {
             target.transform.position = Vector3.zero;
+            target.gameObject.SetActive(false);
         }
         
     }

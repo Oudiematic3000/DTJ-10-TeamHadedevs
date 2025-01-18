@@ -19,7 +19,8 @@ public class SeatOccupation : MonoBehaviour
                 other.transform.SetParent(transform);
                 other.transform.localPosition = Vector3.zero;
                 other.GetComponent<NavMeshAgent>().enabled = false;
-                other.GetComponent<CustomerScript>().enabled = false;
+                other.GetComponent<CustomerScript>().sitting = true;
+                other.GetComponent<CustomerScript>().walking = false;
             }
         }
     }
