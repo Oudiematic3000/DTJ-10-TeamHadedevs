@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 0000000091b5a95f
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -805,6 +805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   playerCamera: {fileID: 519420032}
+  isChef: 1
   animator: {fileID: 1182289723}
   inputController: {fileID: 1182289721}
 --- !u!95 &1182289723
