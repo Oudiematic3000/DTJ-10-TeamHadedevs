@@ -541,11 +541,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0
   playerCamera: {fileID: 0}
-  dodgeSpeed: 0
-  isDodging: 0
-  isAttacking: 0
-  reticle: {fileID: 0}
-  hitboxPrefab: {fileID: 0}
   animator: {fileID: 0}
   inputController: {fileID: 0}
 --- !u!1 &1661885858
