@@ -219,7 +219,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChefStand1
+      name: Walk_Forward_Role_1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefStand2
+      name: Walk_Back_Role_1_0
       rect:
         serializedVersion: 2
         x: 320
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefStand3
+      name: Walk_Right_Role_1_0
       rect:
         serializedVersion: 2
         x: 640
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefStand4
+      name: Walk_Left_Role_1_0
       rect:
         serializedVersion: 2
         x: 960
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk1_1
+      name: Walk_Forward_Role_1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -329,7 +329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk1_2
+      name: Walk_Back_Role_1_1
       rect:
         serializedVersion: 2
         x: 320
@@ -351,7 +351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk1_3
+      name: Walk_Right_Role_1_1
       rect:
         serializedVersion: 2
         x: 640
@@ -373,7 +373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk1_4
+      name: Walk_Left_Role_1_1
       rect:
         serializedVersion: 2
         x: 960
@@ -395,7 +395,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chef Sprite Sheet_8
+      name: Walk_Forward_Role_1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -417,7 +417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chef Sprite Sheet_9
+      name: Walk_Back_Role_1_2
       rect:
         serializedVersion: 2
         x: 320
@@ -439,7 +439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chef Sprite Sheet_10
+      name: Walk_Right_Role_1_2
       rect:
         serializedVersion: 2
         x: 640
@@ -461,7 +461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chef Sprite Sheet_11
+      name: Walk_Left_Role_1_2
       rect:
         serializedVersion: 2
         x: 960
@@ -483,7 +483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk2_1
+      name: Walk_Forward_Role_1_3
       rect:
         serializedVersion: 2
         x: 0
@@ -505,7 +505,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk2_2
+      name: Walk_Back_Role_1_3
       rect:
         serializedVersion: 2
         x: 320
@@ -527,7 +527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk2_3
+      name: Walk_Right_Role_1_3
       rect:
         serializedVersion: 2
         x: 640
@@ -549,7 +549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChefWalk2_4
+      name: Walk_Left_Role_1_3
       rect:
         serializedVersion: 2
         x: 958
@@ -584,22 +584,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Chef Sprite Sheet_10: 1748351269438654622
-      Chef Sprite Sheet_11: -542045668368571168
-      Chef Sprite Sheet_8: -3499251551126617143
-      Chef Sprite Sheet_9: -7222549567910080452
-      ChefStand1: -276236024523888968
-      ChefStand2: 8997798000702874443
-      ChefStand3: 4210460811067719233
-      ChefStand4: 3519691568992358578
-      ChefWalk1_1: -3039260085402864432
-      ChefWalk1_2: 2182514556085614514
-      ChefWalk1_3: 6553868250336566971
-      ChefWalk1_4: 8752400992146583594
-      ChefWalk2_1: 8582901200132406574
-      ChefWalk2_2: 3834384875371561029
-      ChefWalk2_3: 1475543389511440198
-      ChefWalk2_4: -4229760738579264344
+      Walk_Back_Role_1_0: 8997798000702874443
+      Walk_Back_Role_1_1: 2182514556085614514
+      Walk_Back_Role_1_2: -7222549567910080452
+      Walk_Back_Role_1_3: 3834384875371561029
+      Walk_Forward_Role_1_0: -276236024523888968
+      Walk_Forward_Role_1_1: -3039260085402864432
+      Walk_Forward_Role_1_2: -3499251551126617143
+      Walk_Forward_Role_1_3: 8582901200132406574
+      Walk_Left_Role_1_0: 3519691568992358578
+      Walk_Left_Role_1_1: 8752400992146583594
+      Walk_Left_Role_1_2: -542045668368571168
+      Walk_Left_Role_1_3: -4229760738579264344
+      Walk_Right_Role_1_0: 4210460811067719233
+      Walk_Right_Role_1_1: 6553868250336566971
+      Walk_Right_Role_1_2: 1748351269438654622
+      Walk_Right_Role_1_3: 1475543389511440198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

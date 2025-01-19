@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ddf9a3da031f80643a459cf187dd9c97
+guid: 86ffcd3eb9e7f5241bf4d5ff17463327
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -219,271 +219,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ManagerStand1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 222b2d9d806a146d0800000000000000
-      internalID: -3007940519162367454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerStand2
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43edb73daf06a5070800000000000000
-      internalID: 8095889910558088756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerStand3
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29aaecac6c9455f90800000000000000
-      internalID: -6965580130503710062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerStand4
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 960
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10efe5f245a9cac10800000000000000
-      internalID: 2066196015418899969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerWalk1_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fc4609b8deb31bc0800000000000000
-      internalID: -3813494621426266894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerWalk1_2
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7a9956c0475aa0f0800000000000000
-      internalID: -1104974822848750978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerWalk1_3
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ffdfbc6fd65d0100800000000000000
-      internalID: 75812286337376244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerWalk1_4
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a617cd3255a56810800000000000000
-      internalID: 1757993002200405672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Manager Sprite Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43aabe50b006df4c0800000000000000
-      internalID: -4252136872707642828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Manager Sprite Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37416005e7905d5f0800000000000000
-      internalID: -732668926264732557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Manager Sprite Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2942210afcfdea70800000000000000
-      internalID: 8858014192798681386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Manager Sprite Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb0e9e849bb147e00800000000000000
-      internalID: 1041487896435613886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManagerWalk2_1
+      name: Idle_Forward_Role_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -491,7 +227,7 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManagerWalk2_2
+      name: Idle_Back_Role_2_0
       rect:
         serializedVersion: 2
         x: 320
@@ -513,7 +249,7 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -527,15 +263,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManagerWalk2_3
+      name: Idle_Right_Role_2_0
       rect:
         serializedVersion: 2
-        x: 640
+        x: 641
         y: 0
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -549,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManagerWalk2_4
+      name: Idle_Left_Role_2_0
       rect:
         serializedVersion: 2
         x: 960
@@ -557,7 +293,7 @@ TextureImporter:
         width: 320
         height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -584,6 +320,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Idle_Back_Role_2_0: -3018866439661987930
+      Idle_Forward_Role_2_0: -954110369810632001
+      Idle_Left_Role_2_0: 8938686421629233553
+      Idle_Right_Role_2_0: 8684654181814861966
       Manager Sprite Sheet_10: 8858014192798681386
       Manager Sprite Sheet_11: 1041487896435613886
       Manager Sprite Sheet_8: -4252136872707642828
@@ -596,10 +336,6 @@ TextureImporter:
       ManagerWalk1_2: -1104974822848750978
       ManagerWalk1_3: 75812286337376244
       ManagerWalk1_4: 1757993002200405672
-      ManagerWalk2_1: -954110369810632001
-      ManagerWalk2_2: -3018866439661987930
-      ManagerWalk2_3: 8684654181814861966
-      ManagerWalk2_4: 8938686421629233553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

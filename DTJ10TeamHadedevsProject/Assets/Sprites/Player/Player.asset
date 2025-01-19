@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 888613bb085394247bdbb6074d914d53, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
+  parts:
+  - name: Body
+    part: {fileID: 11400000, guid: e83993afe4b22a64e88d31d260e2ebb3, type: 2}
