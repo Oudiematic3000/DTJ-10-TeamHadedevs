@@ -8,10 +8,15 @@ public class FishManager : Minigame
     public Slider slider;
     public bool stopped = false;
     public int chopCount = 0;
+    public int goodchopCount = 0;
+    public int badchopCount = 0;
     MinigameControls inputActions;
+
+    public InvItemUI heldItem;
+
     void Start()
     {
-        
+        heldItem = GameObject.Find("Hand").GetComponentInChildren<InvItemUI>();
     }
 
     private void OnDestroy()
@@ -46,9 +51,27 @@ public class FishManager : Minigame
             if (slider.value > 0.45 && slider.value < 0.55)
             {
                 chopCount++;
+                goodchopCount++;
             }
-            if (chopCount == 3)
+            else
             {
+                chopCount++;
+                badchopCount++;
+            }
+            if (chopCount == 5)
+            {
+                if (goodchopCount > badchopCount)
+                {
+                    Ingredient temp = heldItem.ingredient;
+                    Destroy(heldItem.gameObject);
+                    giveItem(goodCook(temp));
+                }
+                else
+                {
+                    Ingredient temp = heldItem.ingredient;
+                    Destroy(heldItem.gameObject);
+                    giveItem(badCook(temp));
+                }
                 SceneManager.UnloadSceneAsync("Minigame_Fish");
                 endMinigame();
             }

@@ -4,6 +4,7 @@ using NUnit.Framework;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PrepManager : Minigame
@@ -11,6 +12,7 @@ public class PrepManager : Minigame
     public GameObject toppingButtonPrefab, toppingPrefab;
     public GameObject center,spawner;
     public List<Ingredient> addedToppings = new List<Ingredient>();
+    public static event Action<List<Ingredient>> SendToppings;
     void Start()
     {
         GameObject.Find("PrepCanvas").GetComponent<Canvas>().worldCamera = Camera.main;
@@ -43,6 +45,13 @@ public class PrepManager : Minigame
             if(t.GetComponent<ToppingPrefab>() != null)
             Destroy(t.gameObject);
         }
+    }
+
+    public void finish()
+    {
+        SendToppings(addedToppings);
+        endMinigame();
+        SceneManager.UnloadSceneAsync("Minigame_Prep");
     }
 
     // Update is called once per frame
