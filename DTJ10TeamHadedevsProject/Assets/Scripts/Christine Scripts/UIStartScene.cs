@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIStartScene : MonoBehaviour
 {
@@ -33,7 +34,9 @@ public class UIStartScene : MonoBehaviour
             }
             else if (img4 == true)
             {
-                //Change to game scene
+                SceneManager.LoadScene("RestaurantA");
+     
+                SceneManager.LoadSceneAsync("Player", LoadSceneMode.Additive);
             }
         }
     }
