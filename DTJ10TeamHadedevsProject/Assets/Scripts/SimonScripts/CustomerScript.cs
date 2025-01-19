@@ -67,12 +67,12 @@ public class CustomerScript : MonoBehaviour
                 {
                     if (Random.Range(1,4) == 3)
                     {
-                        allergyToSend = allergies[Random.Range(0, recipes.Length+1)];
+                        allergyToSend = allergies[Random.Range(0, recipes.Length)];
                     } else {
                         allergyToSend = "None";
                     }
                     
-                    orderManagerScript.addTicket(new TicketClass(recipes[Random.Range(0, recipes.Length+1)], allergyToSend, seatNum));
+                    orderManagerScript.addTicket(new TicketClass(recipes[Random.Range(0, recipes.Length)], allergyToSend, seatNum));
                     ticketCreated = true;
                 }
             }
