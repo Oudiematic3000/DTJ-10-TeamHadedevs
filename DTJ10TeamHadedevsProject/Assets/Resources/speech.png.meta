@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fdb9d29cb4a60f943a9b4d32ccfbd00a
+guid: 9682d9be66ac46444a37b8a836d34b5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2836629651239300056
-    second: kitchen counter_bg-Sheet_0
+      213: 4910237036403418163
+    second: speech_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -126,89 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kitchen counter_bg-Sheet_0
+      name: speech_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1570
-        height: 900
+        x: 1
+        y: 2
+        width: 802
+        height: 399
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ff3b63a8e803c9249b78945599be644d
-      internalID: 521840633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchen counter_bg-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 1570
-        y: 0
-        width: 1570
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbcf951e1e3a5b641a1549fa4991387f
-      internalID: 783837083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchen counter_bg-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 3140
-        y: 0
-        width: 1570
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 178358cfd202616468f0da0c64a35186
-      internalID: -222639336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchen counter_bg-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 4710
-        y: 0
-        width: 1570
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6071850c5b53874f9bfb4e63b61adaa
-      internalID: -1863226661
+      spriteID: 334eacda19aa42440800000000000000
+      internalID: 4910237036403418163
       vertices: []
       indices: 
       edges: []
@@ -217,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 806b9ba8234639b40ab179ef4bc28b09
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -227,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kitchen counter_bg-Sheet_0: 521840633
-      kitchen counter_bg-Sheet_1: 783837083
-      kitchen counter_bg-Sheet_2: -222639336
-      kitchen counter_bg-Sheet_3: -1863226661
+      speech_0: 4910237036403418163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
