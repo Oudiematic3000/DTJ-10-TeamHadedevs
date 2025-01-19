@@ -30,7 +30,8 @@ public class Player : MonoBehaviour
     public Animator animator;
     public PlayerInput inputController;
     public static event Action onInteract;
-    public GameObject hand, pocket;
+    public GameObject hand, pocket, invItemUIPrefab;
+    public TextMeshProUGUI description;
 
 
     private void Awake()
@@ -39,7 +40,7 @@ public class Player : MonoBehaviour
         characterController = GetComponent<Rigidbody2D>();
         Station.minigameStarted += disable;
         Minigame.endMinigameEvent += reEnable;
-
+        Minigame.giveItemEvent += addItem;
     }
 
     private void OnEnable()
@@ -56,8 +57,8 @@ public class Player : MonoBehaviour
         playerInput.PlayerControls.Movement.canceled += ctx => moveInput = Vector2.zero; // Reset moveInput when movement input is canceled
 
         playerInput.PlayerControls.Interact.performed += ctx => onInteract();
+        playerInput.PlayerControls.Swap.performed += ctx => swapHand();
 
-        
 
 
         // Subscribe to the jump input event
@@ -104,7 +105,35 @@ public class Player : MonoBehaviour
         
     }
 
-    
+    public void addItem(Ingredient item)
+    {
+        
+        if(hand.transform.childCount == 0)
+        {
+          GameObject spawnItem =  Instantiate(invItemUIPrefab, hand.transform);
+            spawnItem.GetComponent<InvItemUI>().setup(item);
+        }
+        else if(pocket.transform.childCount == 0)
+        {
+            GameObject spawnItem = Instantiate(invItemUIPrefab, pocket.transform);
+            spawnItem.GetComponent<InvItemUI>().setup(item);
+        }
+        else
+        {
+          Destroy(pocket.transform.GetChild(0).gameObject);
+            GameObject spawnItem = Instantiate(invItemUIPrefab, pocket.transform);
+            spawnItem.GetComponent<InvItemUI>().setup(item);
+        }
+        description.text = hand.transform.GetChild(0).name;
+    }
+
+    public void swapHand()
+    {
+        Ingredient temp=hand.GetComponentInChildren<InvItemUI>().ingredient;
+        hand.GetComponentInChildren<InvItemUI>().setup(pocket.GetComponentInChildren<InvItemUI>().ingredient);
+        pocket.GetComponentInChildren<InvItemUI>().setup(temp);
+        description.text = hand.transform.GetChild(0).name;
+    }
 
 }
 

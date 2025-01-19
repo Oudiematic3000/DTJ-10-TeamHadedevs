@@ -33,6 +33,7 @@ public class InteractRadius : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        deSelect();
         Station newStat;
         if (!collision.CompareTag("Station"))
         {

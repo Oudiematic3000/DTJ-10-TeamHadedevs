@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StorageManager : Minigame
@@ -74,5 +75,11 @@ public class StorageManager : Minigame
         }
         
         
+    }
+
+    public void exit()
+    {
+        SceneManager.UnloadSceneAsync("Minigame_Storage");
+        endMinigame();
     }
 }
