@@ -129,10 +129,21 @@ public class Player : MonoBehaviour
 
     public void swapHand()
     {
-        Ingredient temp=hand.GetComponentInChildren<InvItemUI>().ingredient;
-        hand.GetComponentInChildren<InvItemUI>().setup(pocket.GetComponentInChildren<InvItemUI>().ingredient);
-        pocket.GetComponentInChildren<InvItemUI>().setup(temp);
-        description.text = hand.transform.GetChild(0).name;
+        if (hand.transform.childCount > 0 && pocket.transform.childCount > 0)
+        {
+            Ingredient temp = hand.GetComponentInChildren<InvItemUI>().ingredient;
+            hand.GetComponentInChildren<InvItemUI>().setup(pocket.GetComponentInChildren<InvItemUI>().ingredient);
+            pocket.GetComponentInChildren<InvItemUI>().setup(temp);
+            description.text = hand.transform.GetChild(0).name;
+        }else if(hand.transform.childCount == 0 && pocket.transform.childCount > 0)
+        {
+            addItem(pocket.GetComponentInChildren<InvItemUI>().ingredient);
+            Destroy(pocket.transform.GetChild(0).gameObject);
+        }else if( pocket.transform.childCount == 0 && hand.transform.childCount > 0)
+        {
+            addItem(hand.GetComponentInChildren<InvItemUI>().ingredient);
+            Destroy(hand.transform.GetChild(0).gameObject);
+        }
     }
 
 }

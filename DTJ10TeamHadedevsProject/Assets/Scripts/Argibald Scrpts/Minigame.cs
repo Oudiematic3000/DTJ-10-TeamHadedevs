@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 
 public class Minigame : MonoBehaviour
@@ -17,6 +19,23 @@ public class Minigame : MonoBehaviour
     protected void giveItem(Ingredient item)
     {
         giveItemEvent(item);
+    }
+    protected void giveItem(Ingredient[] items)
+    {
+        foreach (Ingredient item in items)
+        {
+            giveItemEvent(item);
+        }
+    }
+
+    protected Ingredient[] goodCook(Ingredient item)
+    {
+        return item.products;
+    }
+
+    protected Ingredient badCook(Ingredient item)
+    {
+        return item.badPrepProduct;
     }
     // Update is called once per frame
     void Update()
