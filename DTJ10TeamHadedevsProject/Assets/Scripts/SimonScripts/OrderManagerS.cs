@@ -15,6 +15,7 @@ public class OrderManagerS : MonoBehaviour
     {
         ticketText = GameObject.Find("TicketText").GetComponent<TextMeshProUGUI>();
     }
+    
     public void addTicket(TicketClass newTicket)
     {
         if (tickets.Count == 0)
