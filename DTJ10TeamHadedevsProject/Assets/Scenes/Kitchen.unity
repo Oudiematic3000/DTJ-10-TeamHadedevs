@@ -160,7 +160,7 @@ MonoBehaviour:
     seatNum: 0
     isTarget: 0
   ingToMake: []
-  pickUpIngredient: {fileID: 0}
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &96655329
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
     seatNum: 0
     isTarget: 0
   ingToMake: []
-  pickUpIngredient: {fileID: 0}
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &271568625
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
     seatNum: 0
     isTarget: 0
   ingToMake: []
-  pickUpIngredient: {fileID: 0}
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1175733279
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -634,7 +634,7 @@ MonoBehaviour:
     seatNum: 0
     isTarget: 0
   ingToMake: []
-  pickUpIngredient: {fileID: 0}
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1861332908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
     seatNum: 0
     isTarget: 0
   ingToMake: []
-  pickUpIngredient: {fileID: 0}
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!1 &1996196572
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +950,7 @@ MonoBehaviour:
     seatNum: 0
     isTarget: 0
   ingToMake: []
-  pickUpIngredient: {fileID: 0}
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1996196574
 BoxCollider2D:
   m_ObjectHideFlags: 0
