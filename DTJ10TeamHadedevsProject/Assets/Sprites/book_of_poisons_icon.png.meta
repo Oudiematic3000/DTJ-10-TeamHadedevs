@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      book_of_poisons_icon_0: -7621837131783732502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
