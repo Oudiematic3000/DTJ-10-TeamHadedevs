@@ -1567,6 +1567,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fa4042811899b478772a6982b20463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetEyes: 0
+  targetHair: 0
+  targetShirt: 0
+  targetSkin: 0
+  targetEyesText: 
+  targetHairText: 
+  targetShirtText: 
+  targetSkinText: 
 --- !u!1001 &1139312732
 PrefabInstance:
   m_ObjectHideFlags: 0
