@@ -10,18 +10,56 @@ public class Station : MonoBehaviour
     public Boolean isSelected=false;
     public stationType type;
     public GameObject hand;
+    public GameObject orderManager;
+    public TicketClass ticketToFulfil;
+    public List<Ingredient> ingToMake;
+
     public void Awake()
     {
         //highlight onselect
         Player.onInteract += startMinigame;
         InteractRadius.deSelect += deselect;
+        CustomerScript.ticketMade += takeIngredients;
+    }
+
+    public void takeIngredients(TicketClass newTicket)
+    {
+        ingToMake.Clear();
+        Recipe currentRecipe = newTicket.customerRec;
+
+        foreach (var ingredient in currentRecipe.ingredients)
+        {
+            switch (type)
+            {
+                case stationType.Fish:
+                    if (ingredient.ingredientType == Type.Fillet)
+                    {
+                        ingToMake.Add(ingredient);
+                    }
+                    break;
+                
+                case stationType.Meat:
+                    if (ingredient.ingredientType == Type.Pan)
+                    {
+                        ingToMake.Add(ingredient);
+                    }
+                    break;
+                
+                case stationType.Vegetables:
+                    if (ingredient.ingredientType == Type.Chop)
+                    {
+                        ingToMake.Add(ingredient);
+                    }
+                    break;
+            }
+        }
     }
 
     public void OnDestroy()
     {
         Player.onInteract -= startMinigame;
     }
-        
+
     public void deselect()
     {
         GetComponent<SpriteRenderer>().color = Color.white;
@@ -96,6 +134,5 @@ public class Station : MonoBehaviour
         Prep,
         Storage,
         Assembly
-
     }
 }

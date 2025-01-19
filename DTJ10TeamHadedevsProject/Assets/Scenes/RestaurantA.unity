@@ -451,6 +451,7 @@ MonoBehaviour:
   isSelected: 0
   type: 3
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
 --- !u!61 &198167114
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1030,6 +1031,7 @@ MonoBehaviour:
   isSelected: 0
   type: 0
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
 --- !u!61 &413981715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1624,6 +1626,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fa4042811899b478772a6982b20463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetEyes: 0
+  targetHair: 0
+  targetShirt: 0
+  targetSkin: 0
+  targetEyesText: 
+  targetHairText: 
+  targetShirtText: 
+  targetSkinText: 
 --- !u!1001 &1139312732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3830,6 +3840,7 @@ MonoBehaviour:
   isSelected: 0
   type: 1
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
 --- !u!61 &1203880220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5132,6 +5143,7 @@ MonoBehaviour:
   isSelected: 0
   type: 4
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
 --- !u!212 &1742415610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5385,6 +5397,7 @@ MonoBehaviour:
   isSelected: 0
   type: 2
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
 --- !u!61 &1975323056
 BoxCollider2D:
   m_ObjectHideFlags: 0
