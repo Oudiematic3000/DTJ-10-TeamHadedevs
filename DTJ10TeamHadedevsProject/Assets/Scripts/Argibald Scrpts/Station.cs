@@ -13,13 +13,14 @@ public class Station : MonoBehaviour
     public GameObject orderManager;
     public TicketClass ticketToFulfil;
     public List<Ingredient> ingToMake;
+    public GameObject pickUpIngredient;
 
     public void Awake()
     {
         //highlight onselect
         Player.onInteract += startMinigame;
         InteractRadius.deSelect += deselect;
-        CustomerScript.ticketMade += takeIngredients;
+        OrderManagerS.ticketMade += takeIngredients;
     }
 
     public void takeIngredients(TicketClass newTicket)
@@ -29,30 +30,13 @@ public class Station : MonoBehaviour
 
         foreach (var ingredient in currentRecipe.ingredients)
         {
-            switch (type)
-            {
-                case stationType.Fish:
-                    if (ingredient.ingredientType == Type.Fillet)
-                    {
-                        ingToMake.Add(ingredient);
-                    }
-                    break;
-                
-                case stationType.Meat:
-                    if (ingredient.ingredientType == Type.Pan)
-                    {
-                        ingToMake.Add(ingredient);
-                    }
-                    break;
-                
-                case stationType.Vegetables:
-                    if (ingredient.ingredientType == Type.Chop)
-                    {
-                        ingToMake.Add(ingredient);
-                    }
-                    break;
-            }
+            createIngredientPickUp(ingredient);
         }
+    }
+
+    public void createIngredientPickUp(Ingredient ing)
+    {
+
     }
 
     public void OnDestroy()

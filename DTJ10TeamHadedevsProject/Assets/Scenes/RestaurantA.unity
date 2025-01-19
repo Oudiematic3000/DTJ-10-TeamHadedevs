@@ -452,6 +452,13 @@ MonoBehaviour:
   type: 3
   hand: {fileID: 0}
   orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 0}
 --- !u!61 &198167114
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1032,6 +1039,13 @@ MonoBehaviour:
   type: 0
   hand: {fileID: 0}
   orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &413981715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1078,63 +1092,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1001 &579039451
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2633816062230043992, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_Name
-      value: Worker
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 14.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5242962914828227673, guid: 7e5572ffd893c9447820aff821717869, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7e5572ffd893c9447820aff821717869, type: 3}
 --- !u!1 &614045416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,7 +1480,9 @@ MonoBehaviour:
     customerRec: {fileID: 0}
     allergy: 
     seatNum: 0
+    isTarget: 0
   ticketText: {fileID: 0}
+  playerDish: []
 --- !u!1 &986444020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,6 +3800,13 @@ MonoBehaviour:
   type: 1
   hand: {fileID: 0}
   orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1203880220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5144,6 +5110,13 @@ MonoBehaviour:
   type: 4
   hand: {fileID: 0}
   orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 0}
 --- !u!212 &1742415610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5398,6 +5371,13 @@ MonoBehaviour:
   type: 2
   hand: {fileID: 0}
   orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1975323056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5591,4 +5571,3 @@ SceneRoots:
   - {fileID: 636126313}
   - {fileID: 920079174}
   - {fileID: 986444021}
-  - {fileID: 579039451}

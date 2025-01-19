@@ -10,7 +10,8 @@ public class OrderManagerS : MonoBehaviour
     public TicketClass activeTicket;
     public TextMeshProUGUI ticketText;
     public List<Ingredient> playerDish= new List<Ingredient>();
-    public static event Action deathflag;
+    public static event Action<TicketClass> ticketMade;
+
     private void Start()
     {
         ticketText = GameObject.Find("TicketText").GetComponent<TextMeshProUGUI>();
@@ -22,6 +23,7 @@ public class OrderManagerS : MonoBehaviour
         {
             tickets.Enqueue(newTicket);
             activeTicket = newTicket;
+            ticketMade(activeTicket);
         }
         else
         {

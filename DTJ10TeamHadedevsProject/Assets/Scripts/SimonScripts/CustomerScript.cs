@@ -9,7 +9,6 @@ public class CustomerScript : MonoBehaviour
 {
     [SerializeField] public List<string> allergies;
     [SerializeField] public GameObject target;
-    public static event Action<TicketClass> ticketMade;
 
     public Recipe[] recipes;
 
@@ -78,7 +77,6 @@ public class CustomerScript : MonoBehaviour
                     var ntick = new TicketClass(recipes[UnityEngine.Random.Range(0, recipes.Length)], allergyToSend, seatNum, isTarget);
                     orderManagerScript.addTicket(ntick);
                     ticketCreated = true;
-                    ticketMade(ntick);
                 }
             }
         }
