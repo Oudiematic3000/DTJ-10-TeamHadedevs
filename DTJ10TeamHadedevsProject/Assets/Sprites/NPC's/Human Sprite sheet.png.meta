@@ -267,7 +267,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stand1_1_1
+      name: Skin_1_F_0
       rect:
         serializedVersion: 2
         x: 0
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand1_1_2
+      name: Skin_1_B_0
       rect:
         serializedVersion: 2
         x: 320
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand1_1_3
+      name: Skin_1_R_0
       rect:
         serializedVersion: 2
         x: 640
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand1_1_4
+      name: Skin_1_L_0
       rect:
         serializedVersion: 2
         x: 960
@@ -355,7 +355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand2_1_1
+      name: Skin_2_F_0
       rect:
         serializedVersion: 2
         x: 1280
@@ -377,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand2_1_2
+      name: Skin_2_B_0
       rect:
         serializedVersion: 2
         x: 1600
@@ -399,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand2_1_3
+      name: Skin_2_R_0
       rect:
         serializedVersion: 2
         x: 1920
@@ -421,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand2_1_4
+      name: Skin_2_L_0
       rect:
         serializedVersion: 2
         x: 2240
@@ -443,7 +443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_1_1
+      name: Skin_1_F_1
       rect:
         serializedVersion: 2
         x: 0
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_1_2
+      name: Skin_1_B_1
       rect:
         serializedVersion: 2
         x: 320
@@ -487,7 +487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_1_3
+      name: Skin_1_R_1
       rect:
         serializedVersion: 2
         x: 640
@@ -509,7 +509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_1_4
+      name: Skin_1_L_1
       rect:
         serializedVersion: 2
         x: 960
@@ -531,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_1_1
+      name: Skin_2_F_1
       rect:
         serializedVersion: 2
         x: 1280
@@ -553,7 +553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_1_2
+      name: Skin_2_B_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_1_3
+      name: Skin_2_R_1
       rect:
         serializedVersion: 2
         x: 1920
@@ -597,7 +597,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_1_4
+      name: Skin_2_L_1
       rect:
         serializedVersion: 2
         x: 2240
@@ -619,7 +619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_2_1
+      name: Skin_1_F_2
       rect:
         serializedVersion: 2
         x: 0
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_2_2
+      name: Skin_1_B_2
       rect:
         serializedVersion: 2
         x: 320
@@ -663,7 +663,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_2_3
+      name: Skin_1_R_2
       rect:
         serializedVersion: 2
         x: 640
@@ -685,7 +685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_2_4
+      name: Skin_1_L_2
       rect:
         serializedVersion: 2
         x: 960
@@ -707,7 +707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_2_1
+      name: Skin_2_F_2
       rect:
         serializedVersion: 2
         x: 1280
@@ -729,7 +729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_2_2
+      name: Skin_2_B_2
       rect:
         serializedVersion: 2
         x: 1600
@@ -751,7 +751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_2_3
+      name: Skin_2_R_2
       rect:
         serializedVersion: 2
         x: 1920
@@ -773,7 +773,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_2_4
+      name: Skin_2_L_2
       rect:
         serializedVersion: 2
         x: 2240
@@ -883,7 +883,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand4_1_1
+      name: Skin_3_F_0
       rect:
         serializedVersion: 2
         x: 1280
@@ -905,7 +905,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand4_1_2
+      name: Skin_3_B_0
       rect:
         serializedVersion: 2
         x: 1600
@@ -927,7 +927,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand4_1_3
+      name: Skin_3_R_0
       rect:
         serializedVersion: 2
         x: 1920
@@ -949,7 +949,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stand4_1_4
+      name: Skin_3_L_0
       rect:
         serializedVersion: 2
         x: 2240
@@ -1059,7 +1059,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_1_1
+      name: Skin_3_F_1
       rect:
         serializedVersion: 2
         x: 1280
@@ -1081,7 +1081,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_1_2
+      name: Skin_3_B_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -1103,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_1_3
+      name: Skin_3_R_1
       rect:
         serializedVersion: 2
         x: 1920
@@ -1125,7 +1125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_1_4
+      name: Skin_3_L_1
       rect:
         serializedVersion: 2
         x: 2240
@@ -1235,7 +1235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_2_1
+      name: Skin_3_F_2
       rect:
         serializedVersion: 2
         x: 1280
@@ -1257,7 +1257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_2_2
+      name: Skin_3_B_2
       rect:
         serializedVersion: 2
         x: 1600
@@ -1279,7 +1279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_2_3
+      name: Skin_3_R_2
       rect:
         serializedVersion: 2
         x: 1920
@@ -1301,7 +1301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_2_4
+      name: Skin_3_L_2
       rect:
         serializedVersion: 2
         x: 2240
@@ -1336,38 +1336,46 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stand1_1_1: 6460762472245538265
-      Stand1_1_2: 4951409339298876635
-      Stand1_1_3: -459745368117288428
-      Stand1_1_4: -5606363407380481949
-      Stand2_1_1: 741977645668988337
-      Stand2_1_2: 6346400452991818384
-      Stand2_1_3: 249689089497615986
-      Stand2_1_4: 6135622024933680714
+      Skin_1_B_0: 4951409339298876635
+      Skin_1_B_1: -2657851994129919538
+      Skin_1_B_2: 2251492178517741540
+      Skin_1_F_0: 6460762472245538265
+      Skin_1_F_1: -7539261141227029783
+      Skin_1_F_2: 6721963375430720867
+      Skin_1_L_0: -5606363407380481949
+      Skin_1_L_1: 6277260825664310810
+      Skin_1_L_2: 1275554615933217325
+      Skin_1_R_0: -459745368117288428
+      Skin_1_R_1: 7902340104163035201
+      Skin_1_R_2: 6267499430024101540
+      Skin_2_B_0: 6346400452991818384
+      Skin_2_B_1: 4857216040468826416
+      Skin_2_B_2: -850760815254942037
+      Skin_2_F_0: 741977645668988337
+      Skin_2_F_1: 8382028894872859276
+      Skin_2_F_2: 8955672991196377140
+      Skin_2_L_0: 6135622024933680714
+      Skin_2_L_1: 8339242665429504645
+      Skin_2_L_2: 7479176831040899577
+      Skin_2_R_0: 249689089497615986
+      Skin_2_R_1: -2476716043454171757
+      Skin_2_R_2: 499491938011519801
+      Skin_3_B_0: -9103097155225788704
+      Skin_3_B_1: -4535929931123789056
+      Skin_3_B_2: -6689333061748575155
+      Skin_3_F_0: 185256399877607840
+      Skin_3_F_1: -3480894101310199740
+      Skin_3_F_2: 522350878815065581
+      Skin_3_L_0: 4030331492369860963
+      Skin_3_L_1: -8858069715549918201
+      Skin_3_L_2: 2563940010060976435
+      Skin_3_R_0: -5784771779821492865
+      Skin_3_R_1: -6276318357240824731
+      Skin_3_R_2: 5129325387175839609
       Stand3_1_1: 766789709003146313
       Stand3_1_2: -1609674340601479266
       Stand3_1_3: -3201904369750093554
       Stand3_1_4: 3215329245039088179
-      Stand4_1_1: 185256399877607840
-      Stand4_1_2: -9103097155225788704
-      Stand4_1_3: -5784771779821492865
-      Stand4_1_4: 4030331492369860963
-      Walk1_1_1: -7539261141227029783
-      Walk1_1_2: -2657851994129919538
-      Walk1_1_3: 7902340104163035201
-      Walk1_1_4: 6277260825664310810
-      Walk1_2_1: 6721963375430720867
-      Walk1_2_2: 2251492178517741540
-      Walk1_2_3: 6267499430024101540
-      Walk1_2_4: 1275554615933217325
-      Walk2_1_1: 8382028894872859276
-      Walk2_1_2: 4857216040468826416
-      Walk2_1_3: -2476716043454171757
-      Walk2_1_4: 8339242665429504645
-      Walk2_2_1: 8955672991196377140
-      Walk2_2_2: -850760815254942037
-      Walk2_2_3: 499491938011519801
-      Walk2_2_4: 7479176831040899577
       Walk3_1_1: 3383497934306962540
       Walk3_1_2: -1445342051073016070
       Walk3_1_3: -7427905308490341644
@@ -1376,14 +1384,6 @@ TextureImporter:
       Walk3_2_2: 342831723541690224
       Walk3_2_3: 8984801484876703674
       Walk3_2_4: -5441601823696682711
-      Walk4_1_1: -3480894101310199740
-      Walk4_1_2: -4535929931123789056
-      Walk4_1_3: -6276318357240824731
-      Walk4_1_4: -8858069715549918201
-      Walk4_2_1: 522350878815065581
-      Walk4_2_2: -6689333061748575155
-      Walk4_2_3: 5129325387175839609
-      Walk4_2_4: 2563940010060976435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

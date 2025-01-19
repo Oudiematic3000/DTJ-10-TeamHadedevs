@@ -7,6 +7,10 @@ public class PlayerRoles : MonoBehaviour
     public Role[] IdleFront;
     public Role[] IdleLeft;
     public Role[] IdleRight;
+    public Role[] WalkBack;
+    public Role[] WalkFront;
+    public Role[] WalkLeft;
+    public Role[] WalkRight;
     private SpriteRenderer spriteRen;
 
     private void Start()
@@ -20,6 +24,10 @@ public class PlayerRoles : MonoBehaviour
         RoleOptionBack();
         RoleOptionLeft();
         RoleOptionRight();
+        RoleOptionRightWalk();
+        RoleOptionLeftWalk();
+        RoleOptionBackWalk();
+        RoleOptionForwardWalk();
     }
 
     private void RoleOptionForward()
@@ -67,6 +75,54 @@ public class PlayerRoles : MonoBehaviour
             int spriteNum = int.Parse(spriteName);
 
             spriteRen.sprite = IdleRight[roleNum].sprites[spriteNum];
+        }
+    }
+
+    private void RoleOptionForwardWalk()
+    {
+        if (spriteRen.sprite.name.Contains("Walk_Forward_Role_1"))
+        {
+            string spriteName = spriteRen.sprite.name;
+            spriteName = spriteName.Replace("Walk_Forward_Role_1_", "");
+            int spriteNum = int.Parse(spriteName);
+
+            spriteRen.sprite = WalkFront[roleNum].sprites[spriteNum];
+        }
+    }
+
+    private void RoleOptionBackWalk()
+    {
+        if (spriteRen.sprite.name.Contains("Walk_Back_Role_1"))
+        {
+            string spriteName = spriteRen.sprite.name;
+            spriteName = spriteName.Replace("Walk_Back_Role_1_", "");
+            int spriteNum = int.Parse(spriteName);
+
+            spriteRen.sprite = WalkBack[roleNum].sprites[spriteNum];
+        }
+    }
+
+    private void RoleOptionLeftWalk()
+    {
+        if (spriteRen.sprite.name.Contains("Walk_Left_Role_1"))
+        {
+            string spriteName = spriteRen.sprite.name;
+            spriteName = spriteName.Replace("Walk_Left_Role_1_", "");
+            int spriteNum = int.Parse(spriteName);
+
+            spriteRen.sprite = WalkLeft[roleNum].sprites[spriteNum];
+        }
+    }
+
+    private void RoleOptionRightWalk()
+    {
+        if (spriteRen.sprite.name.Contains("Walk_Right_Role_1"))
+        {
+            string spriteName = spriteRen.sprite.name;
+            spriteName = spriteName.Replace("Walk_Right_Role_1_", "");
+            int spriteNum = int.Parse(spriteName);
+
+            spriteRen.sprite = WalkRight[roleNum].sprites[spriteNum];
         }
     }
 }

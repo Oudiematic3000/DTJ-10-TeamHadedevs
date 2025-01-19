@@ -1,127 +1,151 @@
 fileFormatVersion: 2
-guid: 4e9c7bd6288e41c47b7dbaa3f4ae91b0
+guid: 9c5d89a18710c544eae9276742fea3e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4528649663805410707
-    second: HairLower_0
+      213: 6460762472245538265
+    second: Human Sprite sheet_0
   - first:
-      213: -2689210989091549539
-    second: HairLower_1
+      213: 4951409339298876635
+    second: Human Sprite sheet_1
   - first:
-      213: -2393076041859606391
-    second: HairLower_2
+      213: -459745368117288428
+    second: Human Sprite sheet_2
   - first:
-      213: 7525228120051674992
-    second: HairLower_3
+      213: -5606363407380481949
+    second: Human Sprite sheet_3
   - first:
-      213: -3729473058160770139
-    second: HairLower_4
+      213: 741977645668988337
+    second: Human Sprite sheet_4
   - first:
-      213: -478078308994660488
-    second: HairLower_5
+      213: 6346400452991818384
+    second: Human Sprite sheet_5
   - first:
-      213: 8905583665167500096
-    second: HairLower_6
+      213: 249689089497615986
+    second: Human Sprite sheet_6
   - first:
-      213: 3202882325678149877
-    second: HairLower_7
+      213: 6135622024933680714
+    second: Human Sprite sheet_7
   - first:
-      213: -6305469590002535524
-    second: HairLower_8
+      213: -7539261141227029783
+    second: Human Sprite sheet_8
   - first:
-      213: -209353948406051091
-    second: HairLower_9
+      213: -2657851994129919538
+    second: Human Sprite sheet_9
   - first:
-      213: 9131934102766934854
-    second: HairLower_10
+      213: 7902340104163035201
+    second: Human Sprite sheet_10
   - first:
-      213: -5083075935427451483
-    second: HairLower_11
+      213: 6277260825664310810
+    second: Human Sprite sheet_11
   - first:
-      213: 940989077081155307
-    second: HairLower_12
+      213: 8382028894872859276
+    second: Human Sprite sheet_12
   - first:
-      213: 7388241498389838956
-    second: HairLower_13
+      213: 4857216040468826416
+    second: Human Sprite sheet_13
   - first:
-      213: 7635388627652876184
-    second: HairLower_14
+      213: -2476716043454171757
+    second: Human Sprite sheet_14
   - first:
-      213: -4148016358008097886
-    second: HairLower_15
+      213: 8339242665429504645
+    second: Human Sprite sheet_15
   - first:
-      213: -7077350725217759835
-    second: HairLower_16
+      213: 6721963375430720867
+    second: Human Sprite sheet_16
   - first:
-      213: 4033389654143865400
-    second: HairLower_17
+      213: 2251492178517741540
+    second: Human Sprite sheet_17
   - first:
-      213: -4624111260252269888
-    second: HairLower_18
+      213: 6267499430024101540
+    second: Human Sprite sheet_18
   - first:
-      213: 6160529948922029365
-    second: HairLower_19
+      213: 1275554615933217325
+    second: Human Sprite sheet_19
   - first:
-      213: -4292102558213598864
-    second: HairLower_20
+      213: 8955672991196377140
+    second: Human Sprite sheet_20
   - first:
-      213: -4198156916721509032
-    second: HairLower_21
+      213: -850760815254942037
+    second: Human Sprite sheet_21
   - first:
-      213: 1726093945181531538
-    second: HairLower_22
+      213: 499491938011519801
+    second: Human Sprite sheet_22
   - first:
-      213: 701859479491984109
-    second: HairLower_23
+      213: 7479176831040899577
+    second: Human Sprite sheet_23
   - first:
-      213: -7768101313092490783
-    second: HairLower_24
+      213: 766789709003146313
+    second: Human Sprite sheet_24
   - first:
-      213: 3839945183884041048
-    second: HairLower_25
+      213: -1609674340601479266
+    second: Human Sprite sheet_25
   - first:
-      213: 3033664529675939716
-    second: HairLower_26
+      213: -3201904369750093554
+    second: Human Sprite sheet_26
   - first:
-      213: -8161479324433172828
-    second: HairLower_27
+      213: 3215329245039088179
+    second: Human Sprite sheet_27
   - first:
-      213: -7006353067194602936
-    second: HairLower_28
+      213: 185256399877607840
+    second: Human Sprite sheet_28
   - first:
-      213: -2859652129647948404
-    second: HairLower_29
+      213: -9103097155225788704
+    second: Human Sprite sheet_29
   - first:
-      213: 2307035503239368967
-    second: HairLower_30
+      213: -5784771779821492865
+    second: Human Sprite sheet_30
   - first:
-      213: -1739792258063832506
-    second: HairLower_31
+      213: 4030331492369860963
+    second: Human Sprite sheet_31
   - first:
-      213: -303114566165580283
-    second: HairLower_32
+      213: 3383497934306962540
+    second: Human Sprite sheet_32
   - first:
-      213: -6628781472492817943
-    second: HairLower_33
+      213: -1445342051073016070
+    second: Human Sprite sheet_33
   - first:
-      213: -5316592947123459165
-    second: HairLower_34
+      213: -7427905308490341644
+    second: Human Sprite sheet_34
   - first:
-      213: -6344190706500040815
-    second: HairLower_35
+      213: -4229420332845115222
+    second: Human Sprite sheet_35
   - first:
-      213: -990530705040073511
-    second: HairLower_36
+      213: -3480894101310199740
+    second: Human Sprite sheet_36
   - first:
-      213: 5343571216306982091
-    second: HairLower_37
+      213: -4535929931123789056
+    second: Human Sprite sheet_37
   - first:
-      213: -6156469692108720456
-    second: HairLower_38
+      213: -6276318357240824731
+    second: Human Sprite sheet_38
   - first:
-      213: -1495580538464553923
-    second: HairLower_39
+      213: -8858069715549918201
+    second: Human Sprite sheet_39
+  - first:
+      213: -1357164474812834952
+    second: Human Sprite sheet_40
+  - first:
+      213: 342831723541690224
+    second: Human Sprite sheet_41
+  - first:
+      213: 8984801484876703674
+    second: Human Sprite sheet_42
+  - first:
+      213: -5441601823696682711
+    second: Human Sprite sheet_43
+  - first:
+      213: 522350878815065581
+    second: Human Sprite sheet_44
+  - first:
+      213: -6689333061748575155
+    second: Human Sprite sheet_45
+  - first:
+      213: 5129325387175839609
+    second: Human Sprite sheet_46
+  - first:
+      213: 2563940010060976435
+    second: Human Sprite sheet_47
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -243,183 +267,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brown_Hair_F_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39d405b10eef8de30800000000000000
-      internalID: 4528649663805410707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brown_Hair_B_1
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9e0f1d7ad00eaad0800000000000000
-      internalID: -2689210989091549539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brown_Hair_R_1
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 988d57cd4061aced0800000000000000
-      internalID: -2393076041859606391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Brown_Hair_L_1
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07fe575da1bfe6860800000000000000
-      internalID: 7525228120051674992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BrownL_Hair_F_1
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a300f063004e3cc0800000000000000
-      internalID: -3729473058160770139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BrownL_Hair_B_1
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 877cd899f468d59f0800000000000000
-      internalID: -478078308994660488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BrownL_Hair_R_1
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 04384dfd82df69b70800000000000000
-      internalID: 8905583665167500096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BrownL_Hair_L_1
-      rect:
-        serializedVersion: 2
-        x: 2240
-        y: 1920
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f05c6f618ce27c20800000000000000
-      internalID: 3202882325678149877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Black_Hair_F_1
+      name: SkinI_1_F_0
       rect:
         serializedVersion: 2
         x: 0
@@ -434,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c93fed1d0d87e78a0800000000000000
-      internalID: -6305469590002535524
+      spriteID: 9ddae58ec3d39a950800000000000000
+      internalID: 6460762472245538265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_Hair_B_1
+      name: SkinI_1_B_0
       rect:
         serializedVersion: 2
         x: 320
@@ -456,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dee8ee071b9381df0800000000000000
-      internalID: -209353948406051091
+      spriteID: bdc06767f80f6b440800000000000000
+      internalID: 4951409339298876635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_Hair_R_1
+      name: SkinI_1_R_0
       rect:
         serializedVersion: 2
         x: 640
@@ -478,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64bd2b3fea52bbe70800000000000000
-      internalID: 9131934102766934854
+      spriteID: 412ec360608ae99f0800000000000000
+      internalID: -459745368117288428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Black_Hair_L_1
+      name: SkinI_1_L_0
       rect:
         serializedVersion: 2
         x: 960
@@ -500,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a5a2863e594579b0800000000000000
-      internalID: -5083075935427451483
+      spriteID: 368765d4f223232b0800000000000000
+      internalID: -5606363407380481949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Hair_F_1
+      name: SkinI_2_F_0
       rect:
         serializedVersion: 2
         x: 1280
@@ -522,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be6e1fc74901f0d00800000000000000
-      internalID: 940989077081155307
+      spriteID: 1b57161dcb80c4a00800000000000000
+      internalID: 741977645668988337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Hair_B_1
+      name: SkinI_2_B_0
       rect:
         serializedVersion: 2
         x: 1600
@@ -544,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6c735a8f7e488660800000000000000
-      internalID: 7388241498389838956
+      spriteID: 09a94fa5691f21850800000000000000
+      internalID: 6346400452991818384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Hair_R_1
+      name: SkinI_2_R_0
       rect:
         serializedVersion: 2
         x: 1920
@@ -566,14 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8979e49b08956f960800000000000000
-      internalID: 7635388627652876184
+      spriteID: 27ecbcb67e2177300800000000000000
+      internalID: 249689089497615986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Hair_L_1
+      name: SkinI_2_L_0
       rect:
         serializedVersion: 2
         x: 2240
@@ -588,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a3fa6a79194f66c0800000000000000
-      internalID: -4148016358008097886
+      spriteID: a462c3849bb162550800000000000000
+      internalID: 6135622024933680714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blonde_Hair_F_1
+      name: Skin_1_F_1
       rect:
         serializedVersion: 2
         x: 0
@@ -610,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5adca88430338cd90800000000000000
-      internalID: -7077350725217759835
+      spriteID: 9eab140dfe92f5790800000000000000
+      internalID: -7539261141227029783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blonde_Hair_B_1
+      name: Skin_1_B_1
       rect:
         serializedVersion: 2
         x: 320
@@ -632,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8321bf7458a79f730800000000000000
-      internalID: 4033389654143865400
+      spriteID: ec1925871b96d1bd0800000000000000
+      internalID: -2657851994129919538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blonde_Hair_R_1
+      name: Skin_1_R_1
       rect:
         serializedVersion: 2
         x: 640
@@ -654,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c297c2fe4bd3dfb0800000000000000
-      internalID: -4624111260252269888
+      spriteID: 14806f2d470caad60800000000000000
+      internalID: 7902340104163035201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blonde_Hair_L_1
+      name: Skin_1_L_1
       rect:
         serializedVersion: 2
         x: 960
@@ -676,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53527a149599e7550800000000000000
-      internalID: 6160529948922029365
+      spriteID: a1e423c667f4d1750800000000000000
+      internalID: 6277260825664310810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink_Hair_F_1
+      name: Skin_2_F_1
       rect:
         serializedVersion: 2
         x: 1280
@@ -698,14 +546,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 071122eb6736f64c0800000000000000
-      internalID: -4292102558213598864
+      spriteID: c82f4f7bed2f25470800000000000000
+      internalID: 8382028894872859276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink_Hair_B_1
+      name: Skin_2_B_1
       rect:
         serializedVersion: 2
         x: 1600
@@ -720,14 +568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85d177be6862db5c0800000000000000
-      internalID: -4198156916721509032
+      spriteID: 0394971114c486340800000000000000
+      internalID: 4857216040468826416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink_Hair_R_1
+      name: Skin_2_R_1
       rect:
         serializedVersion: 2
         x: 1920
@@ -742,14 +590,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29d6f734c4154f710800000000000000
-      internalID: 1726093945181531538
+      spriteID: 395376471efe0add0800000000000000
+      internalID: -2476716043454171757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pink_Hair_L_1
+      name: Skin_2_L_1
       rect:
         serializedVersion: 2
         x: 2240
@@ -764,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dea3c5d5a718db900800000000000000
-      internalID: 701859479491984109
+      spriteID: 58215b06501fab370800000000000000
+      internalID: 8339242665429504645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenL_Hair_F_1
+      name: Skin_1_F_2
       rect:
         serializedVersion: 2
         x: 0
@@ -786,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e960ed4309223490800000000000000
-      internalID: -7768101313092490783
+      spriteID: 36ddbb15316394d50800000000000000
+      internalID: 6721963375430720867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenL_Hair_B_1
+      name: Skin_1_B_2
       rect:
         serializedVersion: 2
         x: 320
@@ -808,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85b5162ccc93a4530800000000000000
-      internalID: 3839945183884041048
+      spriteID: 4efce1b1538ee3f10800000000000000
+      internalID: 2251492178517741540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenL_Hair_R_1
+      name: Skin_1_R_2
       rect:
         serializedVersion: 2
         x: 640
@@ -830,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48f690311ddb91a20800000000000000
-      internalID: 3033664529675939716
+      spriteID: 4aebc846681aaf650800000000000000
+      internalID: 6267499430024101540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenL_Hair_L_1
+      name: Skin_1_L_2
       rect:
         serializedVersion: 2
         x: 960
@@ -852,14 +700,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a63779bbc99cbe80800000000000000
-      internalID: -8161479324433172828
+      spriteID: d2a2f4e3a2ea3b110800000000000000
+      internalID: 1275554615933217325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PinkL_Hair_F_1
+      name: Skin_2_F_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430f1d4e221f84c70800000000000000
+      internalID: 8955672991196377140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_2_B_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae48e9cb8d7134f0800000000000000
+      internalID: -850760815254942037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_2_R_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b195d654d8ee600800000000000000
+      internalID: 499491938011519801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_2_L_2
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9468293bf5bc760800000000000000
+      internalID: 7479176831040899577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stand3_1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -874,14 +810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84aa5e2b10f64ce90800000000000000
-      internalID: -7006353067194602936
+      spriteID: 944ce8e7d2f24aa00800000000000000
+      internalID: 766789709003146313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PinkL_Hair_B_1
+      name: Stand3_1_2
       rect:
         serializedVersion: 2
         x: 320
@@ -896,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8d05270a897058d0800000000000000
-      internalID: -2859652129647948404
+      spriteID: e9f336437b949a9e0800000000000000
+      internalID: -1609674340601479266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PinkL_Hair_R_1
+      name: Stand3_1_3
       rect:
         serializedVersion: 2
         x: 640
@@ -918,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7011cc6219c340020800000000000000
-      internalID: 2307035503239368967
+      spriteID: e01564ca0fc8093d0800000000000000
+      internalID: -3201904369750093554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PinkL_Hair_L_1
+      name: Stand3_1_4
       rect:
         serializedVersion: 2
         x: 960
@@ -940,14 +876,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64a612bb8240bd7e0800000000000000
-      internalID: -1739792258063832506
+      spriteID: 332da7ea9e42f9c20800000000000000
+      internalID: 3215329245039088179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondeL_Hair_F_1
+      name: SkinI_3_F_0
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a19213d6b9229200800000000000000
+      internalID: 185256399877607840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinI_3_B_0
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eed5ea1e5d4ba180800000000000000
+      internalID: -9103097155225788704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinI_3_R_0
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75290d17bc58bfa0800000000000000
+      internalID: -5784771779821492865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkinI_3_L_0
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36986c1832d9ee730800000000000000
+      internalID: 4030331492369860963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk3_1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -962,18 +986,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 506347578ee1bcbf0800000000000000
-      internalID: -303114566165580283
+      spriteID: c6c62a8d17994fe20800000000000000
+      internalID: 3383497934306962540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondeL_Hair_B_1
+      name: Walk3_1_2
       rect:
         serializedVersion: 2
-        x: 319
-        y: 321
+        x: 320
+        y: 320
         width: 320
         height: 320
       alignment: 0
@@ -984,14 +1008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e1ff5e1f56d104a0800000000000000
-      internalID: -6628781472492817943
+      spriteID: afebbd2ff0d11fbe0800000000000000
+      internalID: -1445342051073016070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondeL_Hair_R_1
+      name: Walk3_1_3
       rect:
         serializedVersion: 2
         x: 640
@@ -1006,14 +1030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3abeb5312eaa736b0800000000000000
-      internalID: -5316592947123459165
+      spriteID: 4f2e1360a77cae890800000000000000
+      internalID: -7427905308490341644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondeL_Hair_L_1
+      name: Walk3_1_4
       rect:
         serializedVersion: 2
         x: 960
@@ -1028,14 +1052,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1970bb75a28e4f7a0800000000000000
-      internalID: -6344190706500040815
+      spriteID: aa8d3fe9d941e45c0800000000000000
+      internalID: -4229420332845115222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlackL_Hair_F_1
+      name: Skin_3_F_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44827a6e14161bfc0800000000000000
+      internalID: -3480894101310199740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_B_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003fd4192c32d01c0800000000000000
+      internalID: -4535929931123789056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_R_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cb56b15b906e8a0800000000000000
+      internalID: -6276318357240824731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_L_1
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c60099680d11580800000000000000
+      internalID: -8858069715549918201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk3_2_1
       rect:
         serializedVersion: 2
         x: 0
@@ -1050,14 +1162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9dc18f2629de042f0800000000000000
-      internalID: -990530705040073511
+      spriteID: 87b5009c9126a2de0800000000000000
+      internalID: -1357164474812834952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlackL_Hair_B_1
+      name: Walk3_2_2
       rect:
         serializedVersion: 2
         x: 320
@@ -1072,14 +1184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcccaf3b5bd282a40800000000000000
-      internalID: 5343571216306982091
+      spriteID: 077ff6bd2abf1c400800000000000000
+      internalID: 342831723541690224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlackL_Hair_R_1
+      name: Walk3_2_3
       rect:
         serializedVersion: 2
         x: 640
@@ -1094,14 +1206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b6b663fe63df8aa0800000000000000
-      internalID: -6156469692108720456
+      spriteID: ab76a73d85d60bc70800000000000000
+      internalID: 8984801484876703674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlackL_Hair_L_1
+      name: Walk3_2_4
       rect:
         serializedVersion: 2
         x: 960
@@ -1116,8 +1228,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3435d79c61ae3be0800000000000000
-      internalID: -1495580538464553923
+      spriteID: 9210171e8fb8b74b0800000000000000
+      internalID: -5441601823696682711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_F_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de592e35b53cf3700800000000000000
+      internalID: 522350878815065581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_B_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44333e9507ba23a0800000000000000
+      internalID: -6689333061748575155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_R_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977420863460f2740800000000000000
+      internalID: 5129325387175839609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skin_3_L_2
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319815dad1f49320800000000000000
+      internalID: 2563940010060976435
       vertices: []
       indices: 
       edges: []
@@ -1126,7 +1326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6565a26fbeee28f40be6eddab6b95b93
+    spriteID: f7072fba9379e4343ba43a68c7aa3ad9
     internalID: 0
     vertices: []
     indices: 
@@ -1136,46 +1336,54 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BlackL_Hair_B_1: 5343571216306982091
-      BlackL_Hair_F_1: -990530705040073511
-      BlackL_Hair_L_1: -1495580538464553923
-      BlackL_Hair_R_1: -6156469692108720456
-      Black_Hair_B_1: -209353948406051091
-      Black_Hair_F_1: -6305469590002535524
-      Black_Hair_L_1: -5083075935427451483
-      Black_Hair_R_1: 9131934102766934854
-      BlondeL_Hair_B_1: -6628781472492817943
-      BlondeL_Hair_F_1: -303114566165580283
-      BlondeL_Hair_L_1: -6344190706500040815
-      BlondeL_Hair_R_1: -5316592947123459165
-      Blonde_Hair_B_1: 4033389654143865400
-      Blonde_Hair_F_1: -7077350725217759835
-      Blonde_Hair_L_1: 6160529948922029365
-      Blonde_Hair_R_1: -4624111260252269888
-      BrownL_Hair_B_1: -478078308994660488
-      BrownL_Hair_F_1: -3729473058160770139
-      BrownL_Hair_L_1: 3202882325678149877
-      BrownL_Hair_R_1: 8905583665167500096
-      Brown_Hair_B_1: -2689210989091549539
-      Brown_Hair_F_1: 4528649663805410707
-      Brown_Hair_L_1: 7525228120051674992
-      Brown_Hair_R_1: -2393076041859606391
-      GreenL_Hair_B_1: 3839945183884041048
-      GreenL_Hair_F_1: -7768101313092490783
-      GreenL_Hair_L_1: -8161479324433172828
-      GreenL_Hair_R_1: 3033664529675939716
-      Green_Hair_B_1: 7388241498389838956
-      Green_Hair_F_1: 940989077081155307
-      Green_Hair_L_1: -4148016358008097886
-      Green_Hair_R_1: 7635388627652876184
-      PinkL_Hair_B_1: -2859652129647948404
-      PinkL_Hair_F_1: -7006353067194602936
-      PinkL_Hair_L_1: -1739792258063832506
-      PinkL_Hair_R_1: 2307035503239368967
-      Pink_Hair_B_1: -4198156916721509032
-      Pink_Hair_F_1: -4292102558213598864
-      Pink_Hair_L_1: 701859479491984109
-      Pink_Hair_R_1: 1726093945181531538
+      SkinI_1_B_0: 4951409339298876635
+      SkinI_1_F_0: 6460762472245538265
+      SkinI_1_L_0: -5606363407380481949
+      SkinI_1_R_0: -459745368117288428
+      SkinI_2_B_0: 6346400452991818384
+      SkinI_2_F_0: 741977645668988337
+      SkinI_2_L_0: 6135622024933680714
+      SkinI_2_R_0: 249689089497615986
+      SkinI_3_B_0: -9103097155225788704
+      SkinI_3_F_0: 185256399877607840
+      SkinI_3_L_0: 4030331492369860963
+      SkinI_3_R_0: -5784771779821492865
+      Skin_1_B_1: -2657851994129919538
+      Skin_1_B_2: 2251492178517741540
+      Skin_1_F_1: -7539261141227029783
+      Skin_1_F_2: 6721963375430720867
+      Skin_1_L_1: 6277260825664310810
+      Skin_1_L_2: 1275554615933217325
+      Skin_1_R_1: 7902340104163035201
+      Skin_1_R_2: 6267499430024101540
+      Skin_2_B_1: 4857216040468826416
+      Skin_2_B_2: -850760815254942037
+      Skin_2_F_1: 8382028894872859276
+      Skin_2_F_2: 8955672991196377140
+      Skin_2_L_1: 8339242665429504645
+      Skin_2_L_2: 7479176831040899577
+      Skin_2_R_1: -2476716043454171757
+      Skin_2_R_2: 499491938011519801
+      Skin_3_B_1: -4535929931123789056
+      Skin_3_B_2: -6689333061748575155
+      Skin_3_F_1: -3480894101310199740
+      Skin_3_F_2: 522350878815065581
+      Skin_3_L_1: -8858069715549918201
+      Skin_3_L_2: 2563940010060976435
+      Skin_3_R_1: -6276318357240824731
+      Skin_3_R_2: 5129325387175839609
+      Stand3_1_1: 766789709003146313
+      Stand3_1_2: -1609674340601479266
+      Stand3_1_3: -3201904369750093554
+      Stand3_1_4: 3215329245039088179
+      Walk3_1_1: 3383497934306962540
+      Walk3_1_2: -1445342051073016070
+      Walk3_1_3: -7427905308490341644
+      Walk3_1_4: -4229420332845115222
+      Walk3_2_1: -1357164474812834952
+      Walk3_2_2: 342831723541690224
+      Walk3_2_3: 8984801484876703674
+      Walk3_2_4: -5441601823696682711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
