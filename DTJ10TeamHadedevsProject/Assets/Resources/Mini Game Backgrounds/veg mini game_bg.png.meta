@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      veg mini game_bg_0: 5250902114382247457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

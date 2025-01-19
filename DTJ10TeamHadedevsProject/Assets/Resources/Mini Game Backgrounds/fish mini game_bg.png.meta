@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fish mini game_bg_0: 7867344553325949983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
