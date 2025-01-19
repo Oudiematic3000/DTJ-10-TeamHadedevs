@@ -8,6 +8,7 @@ public class StorageButton : MonoBehaviour
     public TextMeshProUGUI ingredientName;
     public Image image;
     public StorageManager storageManager;
+    public bool finite=false;
     void Start()
     {
         storageManager=GameObject.FindAnyObjectByType<StorageManager>();
@@ -29,5 +30,8 @@ public class StorageButton : MonoBehaviour
     public void giveIngredient()
     {
         storageManager.giveItemChefManager(ingredient);
+        if(finite)Destroy(gameObject);
     }
+
+    
 }
