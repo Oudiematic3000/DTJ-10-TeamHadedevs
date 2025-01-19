@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Linq;
+
 public class Station : MonoBehaviour
 {
     public static event Action minigameStarted;
@@ -28,15 +30,23 @@ public class Station : MonoBehaviour
         ingToMake.Clear();
         Recipe currentRecipe = newTicket.customerRec;
 
-        foreach (var ingredient in currentRecipe.ingredients)
+        switch(type)
         {
-            createIngredientPickUp(ingredient);
+            case stationType.Fish:
+                var randomIngredients = currentRecipe.ingredients.OrderBy(x => UnityEngine.Random.Range(0f, 1f)).Take(2).ToList();
+
+                foreach (var ingredient in randomIngredients)
+                {
+                    createIngredientPickUp(ingredient);
+                }
+                break;
         }
     }
 
     public void createIngredientPickUp(Ingredient ing)
     {
-
+        PickUpScript newIng = Instantiate(pickUpIngredient, new Vector3(1.5f, 15f, 0f), Quaternion.identity).GetComponent<PickUpScript>();
+        newIng.setup(ing);
     }
 
     public void OnDestroy()

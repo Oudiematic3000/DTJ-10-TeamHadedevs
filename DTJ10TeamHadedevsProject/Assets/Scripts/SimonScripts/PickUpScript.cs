@@ -11,4 +11,11 @@ public class PickUpScript : MonoBehaviour
         name = ingred.ingredientName;
         sprite = ingred.sprite;
     }
+
+    public void setup(Ingredient newI)
+    {
+        ingred = newI;
+        name = ingred.ingredientName;
+        sprite = ingred.sprite;
+    }
 }
