@@ -451,6 +451,14 @@ MonoBehaviour:
   isSelected: 0
   type: 3
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &198167114
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1030,6 +1038,14 @@ MonoBehaviour:
   isSelected: 0
   type: 0
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &413981715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1464,7 +1480,9 @@ MonoBehaviour:
     customerRec: {fileID: 0}
     allergy: 
     seatNum: 0
+    isTarget: 0
   ticketText: {fileID: 0}
+  playerDish: []
 --- !u!1 &986444020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3781,6 +3799,14 @@ MonoBehaviour:
   isSelected: 0
   type: 1
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1203880220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5083,6 +5109,14 @@ MonoBehaviour:
   isSelected: 0
   type: 4
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 0}
 --- !u!212 &1742415610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5336,6 +5370,14 @@ MonoBehaviour:
   isSelected: 0
   type: 2
   hand: {fileID: 0}
+  orderManager: {fileID: 920079172}
+  ticketToFulfil:
+    customerRec: {fileID: 0}
+    allergy: 
+    seatNum: 0
+    isTarget: 0
+  ingToMake: []
+  pickUpIngredient: {fileID: 189704676234311719, guid: 8a1cbe9aa03352d40a7993adba364429, type: 3}
 --- !u!61 &1975323056
 BoxCollider2D:
   m_ObjectHideFlags: 0

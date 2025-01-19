@@ -2,23 +2,34 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using System;
 
 public class OrderManagerS : MonoBehaviour
 {
     public Queue<TicketClass> tickets = new Queue<TicketClass>();
     public TicketClass activeTicket;
     public TextMeshProUGUI ticketText;
+    public List<Ingredient> playerDish= new List<Ingredient>();
+    public static event Action<TicketClass> ticketMade;
 
     private void Start()
     {
         ticketText = GameObject.Find("TicketText").GetComponent<TextMeshProUGUI>();
     }
+    private void Awake()
+    {
+        PrepManager.SendToppings += addtoDish;
+        PrepManager.validateDish += validateRecipe;
+        AssemblyManager.sendIngredients += addtoDish;
+    }
+
     public void addTicket(TicketClass newTicket)
     {
         if (tickets.Count == 0)
         {
             tickets.Enqueue(newTicket);
             activeTicket = newTicket;
+            ticketMade(activeTicket);
         }
         else
         {
@@ -38,5 +49,51 @@ public class OrderManagerS : MonoBehaviour
     {
         string output = "<b>Seat "+activeTicket.seatNum+":</b>\n"+activeTicket.customerRec.display()+"\n\nNotes:\n "+activeTicket.allergy+" allergy.";
         return output;
+    }
+
+    public void addtoDish(List<Ingredient> ingredients)
+    {
+       foreach(Ingredient i in ingredients) { 
+        playerDish.Add(i);
+        }
+
+    }
+
+    public void validateRecipe()
+    {
+        foreach(Ingredient i in activeTicket.customerRec.ingredients)
+        {
+            if (!playerDish.Contains(i) && !playerDish.Contains(i.twin))
+            {
+                //gameover
+                Debug.Log("Gameover");
+                return;
+            }
+        }
+        foreach(Ingredient i in playerDish)
+        {
+            if (i.toxic)
+            {
+
+                killActive();
+                return;
+            }
+        }
+        foreach(Ingredient i in playerDish)
+        {
+            if (activeTicket.allergy==i.allergen)
+            {
+
+                killActive();
+                return;
+            }
+        }
+        removeTicket();
+    }
+    
+    public void killActive()
+    {
+        if(activeTicket.isTarget) { Debug.Log("win"); }
+        else { Debug.Log("Gameover"); }
     }
 }

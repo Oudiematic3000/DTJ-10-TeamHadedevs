@@ -4,24 +4,56 @@ using System.Collections.Generic;
 using System;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Linq;
+
 public class Station : MonoBehaviour
 {
     public static event Action minigameStarted;
     public Boolean isSelected=false;
     public stationType type;
     public GameObject hand;
+    public GameObject orderManager;
+    public TicketClass ticketToFulfil;
+    public List<Ingredient> ingToMake;
+    public GameObject pickUpIngredient;
+
     public void Awake()
     {
         //highlight onselect
         Player.onInteract += startMinigame;
         InteractRadius.deSelect += deselect;
+        OrderManagerS.ticketMade += takeIngredients;
+    }
+
+    public void takeIngredients(TicketClass newTicket)
+    {
+        ingToMake.Clear();
+        Recipe currentRecipe = newTicket.customerRec;
+
+        switch(type)
+        {
+            case stationType.Fish:
+                var randomIngredients = currentRecipe.ingredients.OrderBy(x => UnityEngine.Random.Range(0f, 1f)).Take(2).ToList();
+
+                foreach (var ingredient in randomIngredients)
+                {
+                    createIngredientPickUp(ingredient);
+                }
+                break;
+        }
+    }
+
+    public void createIngredientPickUp(Ingredient ing)
+    {
+        PickUpScript newIng = Instantiate(pickUpIngredient, new Vector3(1.5f, 15f, 0f), Quaternion.identity).GetComponent<PickUpScript>();
+        newIng.setup(ing);
     }
 
     public void OnDestroy()
     {
         Player.onInteract -= startMinigame;
     }
-        
+
     public void deselect()
     {
         GetComponent<SpriteRenderer>().color = Color.white;
@@ -67,11 +99,11 @@ public class Station : MonoBehaviour
                     }
                     break;
                 case stationType.Assembly:
-                    if (hand.transform.childCount > 0)
-                    {
-                        SceneManager.LoadSceneAsync("Minigame_Assembly", LoadSceneMode.Additive);
+                    
+                        GameObject stuff = GameObject.Find("AssemblyStuff");
+                        stuff.transform.localScale = Vector3.one;
                         minigameStarted();
-                    }
+                    
                     break;
                 case stationType.Prep:
                     SceneManager.LoadSceneAsync("Minigame_Prep", LoadSceneMode.Additive);
@@ -96,6 +128,5 @@ public class Station : MonoBehaviour
         Prep,
         Storage,
         Assembly
-
     }
 }

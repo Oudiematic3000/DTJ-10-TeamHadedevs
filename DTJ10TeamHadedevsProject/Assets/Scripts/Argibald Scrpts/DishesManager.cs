@@ -16,11 +16,12 @@ public class DishesManager : Minigame
     int dirtyCounter = 3;
     public TextMeshProUGUI dirtyCounterText;
     public TextMeshProUGUI cleanCounterText;
-    
+    public InvItemUI heldItem;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        startTime = Time.time+3;
+        heldItem = GameObject.Find("Hand").GetComponentInChildren<InvItemUI>();
         foreach (GameObject direction in directions)
         {
             direction.SetActive(false);
@@ -47,7 +48,7 @@ public class DishesManager : Minigame
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > startTime && !started)
+        if (!started)
         {
             sendDirection();
             started=true;
@@ -80,6 +81,9 @@ public class DishesManager : Minigame
                 moveCounter = 0;
                 if(cleanCounter==3)
                 {
+                    Ingredient temp = heldItem.ingredient;
+                    Destroy(heldItem.gameObject);
+                    giveItem(goodCook(temp));
                     endMinigame();
                     SceneManager.UnloadSceneAsync("Minigame_Vegetables");
                 }

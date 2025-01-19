@@ -21,4 +21,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e8b4f79b267cebd45bf32438201c243c, type: 2}
   - {fileID: 11400000, guid: e4727fef906ddec4aab9e59a4312684f, type: 2}
   badPrepProduct: {fileID: 0}
+  twin: {fileID: 0}
   allergen: 

@@ -19,4 +19,5 @@ MonoBehaviour:
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
+  twin: {fileID: 11400000, guid: 69323ebdffbee4c438b4c29644209c21, type: 2}
   allergen: 

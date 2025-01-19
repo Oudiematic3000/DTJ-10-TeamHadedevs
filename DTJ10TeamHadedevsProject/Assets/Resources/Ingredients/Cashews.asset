@@ -19,4 +19,5 @@ MonoBehaviour:
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
+  twin: {fileID: 11400000, guid: 474e33720ff8e7a458a0806a7c02a7a9, type: 2}
   allergen: Cashew
