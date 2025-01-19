@@ -32,6 +32,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigame_Storage.unity
     guid: f8b7506289bba4e47911c5a7e8290b9a
+  - enabled: 1
+    path: Assets/Scenes/DiningRoom.unity
+    guid: 00d54cd055959b946a83161e51ab63fa
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Assembly.unity
+    guid: e315ab1fd88e29e4d9fd6eb6542b11c6
+  - enabled: 1
+    path: Assets/Scenes/start scene.unity
+    guid: e0447b125a09c904f8b28c247aac1712
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: f34966583db44744f9d0956706af6b11
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

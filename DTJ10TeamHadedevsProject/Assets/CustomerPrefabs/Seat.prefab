@@ -149,4 +149,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assignedCustomer: 
   seatNum: 0
-  waitTime: 10
+  waitTime: 120
