@@ -4,10 +4,11 @@ using UnityEngine.AI;
 
 public class CustomerScript : MonoBehaviour
 {
-    [SerializeField] Transform target;
+    [SerializeField] public GameObject target;
     NavMeshAgent agent;
     public bool sitting;
     public bool walking;
+    public bool isTarget = false;
 
     void Start()
     {
@@ -22,12 +23,16 @@ public class CustomerScript : MonoBehaviour
     {
         if (walking)
         {
-            agent.SetDestination(target.position);
+            agent.SetDestination(target.transform.position);
         } else if (sitting)
         {
-            target.transform.position = Vector3.zero;
+            target.transform.position = new Vector3(-3f, -4.5f, 0f);
             target.gameObject.SetActive(false);
         }
-        
+
+        if (this.transform.position == new Vector3(-3f, -4.5f, 0f))
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

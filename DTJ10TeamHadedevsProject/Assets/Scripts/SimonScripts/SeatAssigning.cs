@@ -15,8 +15,8 @@ public class SeatAssigning : MonoBehaviour
 
     private void Awake()
     {
-        SeatOccupation.occupied += removeSeat;
-        SeatOccupation.notOccupied += addSeat;
+        SeatOccupation.taken += removeSeat;
+        SeatOccupation.notTaken += addSeat;
     }
 
     private void removeSeat(GameObject seatToRemove)
@@ -27,5 +27,10 @@ public class SeatAssigning : MonoBehaviour
     private void addSeat(GameObject seatToAdd)
     {
         seatList.Add(seatToAdd);
+    }
+
+    public GameObject sendFirstOpenSeat()
+    {
+        return seatList[0];
     }
 }
