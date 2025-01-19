@@ -104,14 +104,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allergies:
-  - Wheat
+  - Gluten
   - Cashew
-  - Peanut
   - Hazelnut
   - Dairy
   - Salt
   - Sesame
   target: {fileID: 0}
+  recipes: []
+  orderManager: {fileID: 0}
   sitting: 0
   walking: 0
   isTarget: 0
