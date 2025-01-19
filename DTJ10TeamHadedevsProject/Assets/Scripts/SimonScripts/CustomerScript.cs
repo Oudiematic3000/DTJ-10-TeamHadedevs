@@ -3,11 +3,13 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class CustomerScript : MonoBehaviour
 {
     [SerializeField] public List<string> allergies;
     [SerializeField] public GameObject target;
+    public static event Action<TicketClass> ticketMade;
 
     public Recipe[] recipes;
 
@@ -65,17 +67,18 @@ public class CustomerScript : MonoBehaviour
                 OrderManagerS orderManagerScript = orderManager.GetComponent<OrderManagerS>();
                 if (orderManagerScript != null)
                 {
-                    if (Random.Range(1,4) == 3)
+                    if (UnityEngine.Random.Range(1,4) == 3)
                     {
-                        int choice = Random.Range(0, allergies.Count);
+                        int choice = UnityEngine.Random.Range(0, allergies.Count);
                         Debug.Log(choice);
                         allergyToSend = allergies[choice];
                     } else {
                         allergyToSend = "None";
                     }
-                    
-                    orderManagerScript.addTicket(new TicketClass(recipes[Random.Range(0, recipes.Length)], allergyToSend, seatNum, isTarget));
+                    var ntick = new TicketClass(recipes[UnityEngine.Random.Range(0, recipes.Length)], allergyToSend, seatNum, isTarget);
+                    orderManagerScript.addTicket(ntick);
                     ticketCreated = true;
+                    ticketMade(ntick);
                 }
             }
         }
