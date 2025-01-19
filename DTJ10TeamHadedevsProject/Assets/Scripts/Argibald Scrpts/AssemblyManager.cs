@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -6,7 +8,7 @@ using UnityEngine.UI;
 public class AssemblyManager : Minigame
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public List<Ingredient> stock;
+    public List<Ingredient> stock, forPrep;
     public GameObject storageButtonPrefab;
     public GameObject content;
     public Image image;
@@ -14,6 +16,8 @@ public class AssemblyManager : Minigame
     public GridLayoutGroup gridLayoutGroup;
     public RectTransform contentRect;
     Player player;
+
+    public static event Action<List<Ingredient>> sendIngredients;
     void Start()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
@@ -67,6 +71,21 @@ public class AssemblyManager : Minigame
     public void exit()
     {
         transform.parent.transform.localScale = Vector3.zero;
+        endMinigame();
+    }
+
+    public void sendToPrep()
+    {
+        sendIngredients(stock);
+        foreach(Ingredient i in stock)
+        {
+            forPrep.Add(i);
+        }
+        stock.Clear();
+        foreach(Transform t in content.transform)
+        {
+            Destroy(t.gameObject);
+        }
         endMinigame();
     }
 }

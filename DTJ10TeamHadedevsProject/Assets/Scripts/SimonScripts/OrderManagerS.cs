@@ -16,7 +16,13 @@ public class OrderManagerS : MonoBehaviour
     {
         ticketText = GameObject.Find("TicketText").GetComponent<TextMeshProUGUI>();
     }
-    
+    private void Awake()
+    {
+        PrepManager.SendToppings += addtoDish;
+        PrepManager.validateDish += validateRecipe;
+        AssemblyManager.sendIngredients += addtoDish;
+    }
+
     public void addTicket(TicketClass newTicket)
     {
         if (tickets.Count == 0)
@@ -45,9 +51,11 @@ public class OrderManagerS : MonoBehaviour
         return output;
     }
 
-    public void addtoDish(Ingredient ingredient)
+    public void addtoDish(List<Ingredient> ingredients)
     {
-        playerDish.Add(ingredient);
+       foreach(Ingredient i in ingredients) { 
+        playerDish.Add(i);
+        }
 
     }
 
@@ -80,6 +88,7 @@ public class OrderManagerS : MonoBehaviour
                 return;
             }
         }
+        removeTicket();
     }
     
     public void killActive()

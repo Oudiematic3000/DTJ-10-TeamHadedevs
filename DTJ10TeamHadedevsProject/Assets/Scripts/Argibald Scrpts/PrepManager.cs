@@ -12,6 +12,7 @@ public class PrepManager : Minigame
     public GameObject toppingButtonPrefab, toppingPrefab;
     public GameObject center,spawner;
     public List<Ingredient> addedToppings = new List<Ingredient>();
+    public static event Action validateDish;
     public static event Action<List<Ingredient>> SendToppings;
     void Start()
     {
@@ -50,6 +51,7 @@ public class PrepManager : Minigame
     public void finish()
     {
         SendToppings(addedToppings);
+        validateDish();
         endMinigame();
         SceneManager.UnloadSceneAsync("Minigame_Prep");
     }
