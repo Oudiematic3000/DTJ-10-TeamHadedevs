@@ -49,7 +49,6 @@ public class NPCHair : MonoBehaviour
             string spriteName = spriteRen.sprite.name;
             spriteName = spriteName.Replace("BlackI_Hair_B_", "");
             int spriteNum = int.Parse(spriteName);
-            Debug.Log(spriteNum);
 
             spriteRen.sprite = IdleBack[hairNum].sprites[spriteNum];
         }

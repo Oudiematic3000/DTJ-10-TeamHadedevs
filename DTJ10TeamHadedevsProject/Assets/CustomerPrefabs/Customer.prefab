@@ -319,6 +319,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 971024583667032168}
+  eyes: {fileID: 1910927043553187987}
+  hair: {fileID: 4824924569976455271}
+  skin: {fileID: 1227267586839389742}
+  shirts: {fileID: 2602476472553229371}
 --- !u!95 &971024583667032168
 Animator:
   serializedVersion: 7

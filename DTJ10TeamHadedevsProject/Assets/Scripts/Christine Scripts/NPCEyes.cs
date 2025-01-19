@@ -90,7 +90,6 @@ public class NPCEyes : MonoBehaviour
             spriteName = spriteName.Replace("GreenEye_L_", "");
             int spriteNum = int.Parse(spriteName);
 
-            Debug.Log(spriteNum);
 
             spriteRen.sprite = WalkLeft[eyeNum].sprites[spriteNum];
         }
