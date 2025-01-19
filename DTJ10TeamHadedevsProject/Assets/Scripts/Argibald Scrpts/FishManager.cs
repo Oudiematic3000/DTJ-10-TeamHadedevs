@@ -62,21 +62,35 @@ public class FishManager : Minigame
             {
                 if (goodchopCount > badchopCount)
                 {
-                    Ingredient temp = heldItem.ingredient;
-                    Destroy(heldItem.gameObject);
-                    giveItem(goodCook(temp));
+                    StartCoroutine(wait());
                 }
                 else
                 {
-                    Ingredient temp = heldItem.ingredient;
-                    Destroy(heldItem.gameObject);
-                    giveItem(badCook(temp));
+                   StartCoroutine(waitBad());
                 }
                 SceneManager.UnloadSceneAsync("Minigame_Fish");
                 endMinigame();
             }
         }
         
+    }
+    public IEnumerator wait()
+    {
+        Ingredient temp = heldItem.ingredient;
+        Destroy(heldItem.gameObject);
+        yield return null;
+        giveItem(goodCook(temp));
+        endMinigame();
+        SceneManager.UnloadSceneAsync("Minigame_Fish");
+    }
+    public IEnumerator waitBad()
+    {
+        Ingredient temp = heldItem.ingredient;
+        Destroy(heldItem.gameObject);
+        yield return null;
+        giveItem(badCook(temp));
+        endMinigame();
+        SceneManager.UnloadSceneAsync("Minigame_Fish");
     }
     IEnumerator stopWait()
     {

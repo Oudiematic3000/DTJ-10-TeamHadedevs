@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -81,15 +82,21 @@ public class DishesManager : Minigame
                 moveCounter = 0;
                 if(cleanCounter==3)
                 {
-                    Ingredient temp = heldItem.ingredient;
-                    Destroy(heldItem.gameObject);
-                    giveItem(goodCook(temp));
-                    endMinigame();
-                    SceneManager.UnloadSceneAsync("Minigame_Vegetables");
+                    StartCoroutine(wait());
+                    
                 }
             }
             sendDirection();
             
         }
+    }
+    public IEnumerator wait()
+    {
+        Ingredient temp = heldItem.ingredient;
+        Destroy(heldItem.gameObject);
+        yield return null;
+        giveItem(goodCook(temp));
+        endMinigame();
+        SceneManager.UnloadSceneAsync("Minigame_Vegetables");
     }
 }
