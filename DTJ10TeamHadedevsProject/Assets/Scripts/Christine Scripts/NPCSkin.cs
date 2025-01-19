@@ -49,7 +49,6 @@ public class NPCSkin : MonoBehaviour
             string spriteName = spriteRen.sprite.name;
             spriteName = spriteName.Replace("SkinI_1_B_", "");
             int spriteNum = int.Parse(spriteName);
-            Debug.Log(spriteNum);
 
             spriteRen.sprite = IdleBack[skinNum].sprites[spriteNum];
         }

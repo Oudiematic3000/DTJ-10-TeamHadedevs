@@ -8,6 +8,17 @@ public class NPCMovemeny : MonoBehaviour
     public Animator anim;
 
     private CustomerScript customerScript;
+    private TrackTargetLooks trackTarget;
+
+    [SerializeField]
+    private NPCEyes eyes;
+    [SerializeField]
+    private NPCHair hair;
+    [SerializeField]
+    private NPCSkin skin;
+    [SerializeField]
+    private NPCShirts shirts;
+
 
     private void Start()
     {
@@ -15,20 +26,40 @@ public class NPCMovemeny : MonoBehaviour
         lastX = this.gameObject.transform.position.x;
 
         customerScript = GetComponent<CustomerScript>();
+        trackTarget = GameObject.Find("CustomerSpawner").GetComponent<TrackTargetLooks>();
+
+        if (customerScript.isTarget == true)
+        {
+            eyes.eyeNum = trackTarget.targetEyes;
+            hair.hairNum = trackTarget.targetHair;
+            skin.skinNum = trackTarget.targetSkin;
+            shirts.shirtNum = trackTarget.targetShirt;
+
+            Debug.Log(eyes.eyeNum);
+            Debug.Log(hair.hairNum);
+            Debug.Log(skin.skinNum);
+            Debug.Log(shirts.shirtNum);
+
+        }
+        else
+        {
+            eyes.eyeNum = Random.Range(0, 2);
+            hair.hairNum = Random.Range(0, 9);
+            skin.skinNum = Random.Range(0, 2);
+            shirts.shirtNum = Random.Range(0, 4);
+        }
     }
 
     private void Update()
     {
         if (lastY < this.gameObject.transform.position.y)
         {
-            Debug.Log("y-Increase");
             anim.SetFloat("moveX", 0);
             anim.SetFloat("moveY", 1);
             anim.SetBool("moving", true);
         }
         else if (lastY > this.gameObject.transform.position.y)
         {
-            Debug.Log("y-decrease");
             anim.SetFloat("moveX", 0);
             anim.SetFloat("moveY", -1);
             anim.SetBool("moving", true);
@@ -38,14 +69,12 @@ public class NPCMovemeny : MonoBehaviour
 
         if (lastX < this.gameObject.transform.position.x)
         {
-            Debug.Log("x-Increase");
             anim.SetFloat("moveX", 1);
             anim.SetFloat("moveY", 0);
             anim.SetBool("moving", true);
         }
         else if (lastX > this.gameObject.transform.position.x)
         {
-            Debug.Log("x-decrease");
             anim.SetFloat("moveX", -1);
             anim.SetFloat("moveY", 0);
             anim.SetBool("moving", true);

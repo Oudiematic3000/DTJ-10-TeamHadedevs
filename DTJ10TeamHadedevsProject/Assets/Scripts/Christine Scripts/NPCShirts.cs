@@ -49,7 +49,6 @@ public class NPCShirts : MonoBehaviour
             string spriteName = spriteRen.sprite.name;
             spriteName = spriteName.Replace("RedI_B_", "");
             int spriteNum = int.Parse(spriteName);
-            Debug.Log(spriteNum);
 
             spriteRen.sprite = IdleBack[shirtNum].sprites[spriteNum];
         }
