@@ -67,12 +67,11 @@ public class Station : MonoBehaviour
                     }
                     break;
                 case stationType.Assembly:
-                    if (hand.transform.childCount > 0)
-                    {
+                    
                         GameObject stuff = GameObject.Find("AssemblyStuff");
                         stuff.transform.localScale = Vector3.one;
                         minigameStarted();
-                    }
+                    
                     break;
                 case stationType.Prep:
                     SceneManager.LoadSceneAsync("Minigame_Prep", LoadSceneMode.Additive);

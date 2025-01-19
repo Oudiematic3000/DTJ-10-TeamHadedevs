@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class AssemblyManager : Minigame
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Ingredient[] stock;
+    public List<Ingredient> stock;
     public GameObject storageButtonPrefab;
     public GameObject content;
     public Image image;
@@ -53,18 +53,20 @@ public class AssemblyManager : Minigame
         stobut.GetComponent<StorageButton>().finite = true;
         stobut.GetComponent<StorageButton>().setup(ingredient);
         Destroy(player.hand.transform.GetChild(0).gameObject);
-           
+        UpdateContentSize();
+        stock.Add(ingredient);
     }
 
     public void giveItemChefManager(Ingredient item)
     {
             giveItem(item);
-
+        UpdateContentSize();
+        stock.Remove(item);
     }
 
     public void exit()
     {
-        SceneManager.UnloadSceneAsync("Minigame_Assembly");
+        transform.parent.transform.localScale = Vector3.zero;
         endMinigame();
     }
 }
