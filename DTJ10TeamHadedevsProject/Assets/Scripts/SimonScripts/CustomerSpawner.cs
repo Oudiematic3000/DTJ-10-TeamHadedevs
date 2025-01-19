@@ -44,6 +44,7 @@ public class CustomerSpawner : MonoBehaviour
             customerInstance.name = "Customer" + customerCount;
             customerTargetInstance.name = "CustomerTarget" + customerCount;
             customerInstance.GetComponent<CustomerScript>().target = customerTargetInstance;
+            customerInstance.GetComponent<CustomerScript>().seatNum = currentOpenSeat.GetComponent<SeatOccupation>().seatNum;
             currentOpenSeat.GetComponent<SeatOccupation>().assignedCustomer = customerInstance.name;
             customerCount++;
             targetSpawned = true;
@@ -67,6 +68,7 @@ public class CustomerSpawner : MonoBehaviour
             customerInstance.name = "Customer" + customerCount;
             customerTargetInstance.name = "CustomerTarget" + customerCount;
             customerInstance.GetComponent<CustomerScript>().target = customerTargetInstance;
+            customerInstance.GetComponent<CustomerScript>().seatNum = currentOpenSeat.GetComponent<SeatOccupation>().seatNum;
             currentOpenSeat.GetComponent<SeatOccupation>().assignedCustomer = customerInstance.name;
             customerCount++;
         }
