@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigame_Meat.unity
     guid: 0d7290c2c9c0ff44493f39d63126e174
+  - enabled: 1
+    path: Assets/Scenes/RestaurantA.unity
+    guid: 81db1d6e4a7e4d749a09f6913d7a399f
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Fish.unity
+    guid: f657d0ff269666940becf35e33c15397
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Prep.unity
+    guid: bbebfd06575d99f4094d2034cfc13938
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Storage.unity
+    guid: f8b7506289bba4e47911c5a7e8290b9a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
