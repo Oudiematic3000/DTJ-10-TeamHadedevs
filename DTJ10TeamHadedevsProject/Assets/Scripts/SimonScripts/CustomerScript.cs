@@ -74,7 +74,7 @@ public class CustomerScript : MonoBehaviour
                         allergyToSend = "None";
                     }
                     
-                    orderManagerScript.addTicket(new TicketClass(recipes[Random.Range(0, recipes.Length)], allergyToSend, seatNum));
+                    orderManagerScript.addTicket(new TicketClass(recipes[Random.Range(0, recipes.Length)], allergyToSend, seatNum, isTarget));
                     ticketCreated = true;
                 }
             }

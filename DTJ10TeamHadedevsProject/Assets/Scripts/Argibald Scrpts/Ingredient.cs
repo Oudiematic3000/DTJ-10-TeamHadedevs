@@ -10,6 +10,7 @@ public class Ingredient : ScriptableObject
     public bool toxic, raw;
     public Ingredient[] products;
     public Ingredient badPrepProduct;
+    public Ingredient twin;
     public string allergen;
 }
     public enum Type

@@ -19,4 +19,5 @@ MonoBehaviour:
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
+  twin: {fileID: 11400000, guid: 037fec650ccccfa4fb9de9a23c0c3ddd, type: 2}
   allergen: Hazelnut
