@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sesame_seeds_0: -399920848139412841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
