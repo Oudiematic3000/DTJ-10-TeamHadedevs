@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     public PlayerInput inputController;
     public static event Action onInteract;
-    public GameObject hand, pocket, invItemUIPrefab;
+    public GameObject hand, pocket, invItemUIPrefab, ticket;
     public TextMeshProUGUI description;
 
 
@@ -58,6 +58,7 @@ public class Player : MonoBehaviour
 
         playerInput.PlayerControls.Interact.performed += ctx => onInteract();
         playerInput.PlayerControls.Swap.performed += ctx => swapHand();
+        playerInput.PlayerControls.OpenTicket.performed += ctx => openTicket();
 
 
 
@@ -144,6 +145,12 @@ public class Player : MonoBehaviour
             addItem(hand.GetComponentInChildren<InvItemUI>().ingredient);
             Destroy(hand.transform.GetChild(0).gameObject);
         }
+    }
+
+    public void openTicket()
+    {
+        if(ticket.transform.localScale==Vector3.one)ticket.transform.localScale = Vector3.zero;
+        else ticket.transform.localScale = Vector3.one;
     }
 
 }

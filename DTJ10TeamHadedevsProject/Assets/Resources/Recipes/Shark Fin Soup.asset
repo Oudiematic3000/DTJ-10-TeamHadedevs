@@ -15,5 +15,5 @@ MonoBehaviour:
   ingredients:
   - {fileID: 11400000, guid: 5ae56e2144c077b48bbc89f5c69e1772, type: 2}
   - {fileID: 11400000, guid: 47955e6ecbf53dc4f8c46297b116fb64, type: 2}
-  - {fileID: 11400000, guid: fa3226ed941757841bd5ec87221f07d7, type: 2}
+  - {fileID: 11400000, guid: 6e2f440b8d27fd84a8ab23e004215b4a, type: 2}
   allergenRequest: 

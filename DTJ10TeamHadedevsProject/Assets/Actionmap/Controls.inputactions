@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Open Ticket",
+                    "type": "Button",
+                    "id": "bbeb1d48-fac3-46fd-be40-d8b1c3bb4df4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -170,6 +179,17 @@
                     "processors": "",
                     "groups": ";Mouse+Keyboard",
                     "action": "Swap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d17c02c1-8053-4eac-8e05-72c78957fb84",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Mouse+Keyboard",
+                    "action": "Open Ticket",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

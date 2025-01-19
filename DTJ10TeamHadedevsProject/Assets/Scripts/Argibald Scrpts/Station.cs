@@ -88,9 +88,7 @@ public class Station : MonoBehaviour
         Vegetables,
         Prep,
         Storage,
-        Terminal,
-        Customer,
-        Bin
+        Assembly
 
     }
 }
