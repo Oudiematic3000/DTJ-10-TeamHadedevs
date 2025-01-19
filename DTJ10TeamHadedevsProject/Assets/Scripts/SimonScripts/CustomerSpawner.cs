@@ -49,17 +49,6 @@ public class CustomerSpawner : MonoBehaviour
             customerCount++;
             targetSpawned = true;
             seatOfTarget = currentOpenSeat;
-
-            /*currentOpenSeat = manager.GetComponent<SeatAssigning>().sendFirstOpenSeat();
-            currentOpenSeat.GetComponent<SeatOccupation>().invokeTaken();
-            GameObject targetInstance = Instantiate(targetPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            GameObject customerTargetInstance = Instantiate(customerTargetPrefab, currentOpenSeat.transform.position, Quaternion.identity);
-            targetInstance.name = "target" + targetNumber;
-            customerTargetInstance.name = "targetTarget" + targetNumber;
-            targetInstance.GetComponent<CustomerScript>().target = customerTargetInstance;
-            currentOpenSeat.GetComponent<SeatOccupation>().assignedCustomer = targetInstance.name;
-            customerCount++;*/
-
         } else {
             currentOpenSeat = manager.GetComponent<SeatAssigning>().sendFirstOpenSeat();
             currentOpenSeat.GetComponent<SeatOccupation>().invokeTaken();
