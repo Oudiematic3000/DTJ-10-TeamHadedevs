@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class TrackTargetLooks : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class TrackTargetLooks : MonoBehaviour
     public string targetHairText;
     public string targetShirtText;
     public string targetSkinText;
+
+    
 
 
     private void Start()
@@ -115,6 +118,8 @@ public class TrackTargetLooks : MonoBehaviour
                 targetSkinText = "Dark Toned Skin";
                 break;
         }
+
+        
     }
 
 
