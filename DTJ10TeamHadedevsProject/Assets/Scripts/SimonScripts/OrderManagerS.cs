@@ -10,7 +10,7 @@ public class OrderManagerS : MonoBehaviour
     public TicketClass activeTicket;
     public TextMeshProUGUI ticketText;
     public List<Ingredient> playerDish= new List<Ingredient>();
-    public static event Action deathflag;
+   
     private void Start()
     {
         ticketText = GameObject.Find("TicketText").GetComponent<TextMeshProUGUI>();
