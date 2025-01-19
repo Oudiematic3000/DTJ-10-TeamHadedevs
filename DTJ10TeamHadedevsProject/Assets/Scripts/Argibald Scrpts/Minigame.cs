@@ -1,9 +1,12 @@
 using System;
+using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 
 public class Minigame : MonoBehaviour
 {
-    public static event Action endMinigameEvent;    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static event Action endMinigameEvent;
+    public static event Action<Ingredient> giveItemEvent;
     void Start()
     {
         
@@ -13,6 +16,27 @@ public class Minigame : MonoBehaviour
         endMinigameEvent();
     }
 
+    protected void giveItem(Ingredient item)
+    {
+        giveItemEvent(item);
+    }
+    protected void giveItem(Ingredient[] items)
+    {
+        foreach (Ingredient item in items)
+        {
+            giveItemEvent(item);
+        }
+    }
+
+    protected Ingredient[] goodCook(Ingredient item)
+    {
+        return item.products;
+    }
+
+    protected Ingredient badCook(Ingredient item)
+    {
+        return item.badPrepProduct;
+    }
     // Update is called once per frame
     void Update()
     {

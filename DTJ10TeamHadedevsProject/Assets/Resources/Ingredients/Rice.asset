@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713f58a307850884082585b4f7ae1f1b, type: 3}
+  m_Name: Rice
+  m_EditorClassIdentifier: 
+  ingredientName: Rice
+  ingredientType: 0
+  sprite: {fileID: -1207974786, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
+  toxic: 0
+  raw: 1
+  products:
+  - {fileID: 11400000, guid: 752cd43041e160046bb9b7a313aa590d, type: 2}
+  badPrepProduct: {fileID: 11400000, guid: 03c9a2230de34b7418f8d0df6e7b05cc, type: 2}
+  allergen: 

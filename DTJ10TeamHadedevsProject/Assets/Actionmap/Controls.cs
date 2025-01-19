@@ -62,6 +62,24 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Swap"",
+                    ""type"": ""Button"",
+                    ""id"": ""b9e3cb37-8658-4a17-bb62-1cae737cd4b7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Open Ticket"",
+                    ""type"": ""Button"",
+                    ""id"": ""bbeb1d48-fac3-46fd-be40-d8b1c3bb4df4"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -174,6 +192,28 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3c190bc0-a21d-49de-9f80-e99397d48cc2"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Mouse+Keyboard"",
+                    ""action"": ""Swap"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d17c02c1-8053-4eac-8e05-72c78957fb84"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Mouse+Keyboard"",
+                    ""action"": ""Open Ticket"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -214,6 +254,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_PlayerControls_Aim = m_PlayerControls.FindAction("Aim", throwIfNotFound: true);
         m_PlayerControls_AimMouse = m_PlayerControls.FindAction("AimMouse", throwIfNotFound: true);
         m_PlayerControls_Interact = m_PlayerControls.FindAction("Interact", throwIfNotFound: true);
+        m_PlayerControls_Swap = m_PlayerControls.FindAction("Swap", throwIfNotFound: true);
+        m_PlayerControls_OpenTicket = m_PlayerControls.FindAction("Open Ticket", throwIfNotFound: true);
     }
 
     ~@Controls()
@@ -284,6 +326,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerControls_Aim;
     private readonly InputAction m_PlayerControls_AimMouse;
     private readonly InputAction m_PlayerControls_Interact;
+    private readonly InputAction m_PlayerControls_Swap;
+    private readonly InputAction m_PlayerControls_OpenTicket;
     public struct PlayerControlsActions
     {
         private @Controls m_Wrapper;
@@ -292,6 +336,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Aim => m_Wrapper.m_PlayerControls_Aim;
         public InputAction @AimMouse => m_Wrapper.m_PlayerControls_AimMouse;
         public InputAction @Interact => m_Wrapper.m_PlayerControls_Interact;
+        public InputAction @Swap => m_Wrapper.m_PlayerControls_Swap;
+        public InputAction @OpenTicket => m_Wrapper.m_PlayerControls_OpenTicket;
         public InputActionMap Get() { return m_Wrapper.m_PlayerControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -313,6 +359,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
+            @Swap.started += instance.OnSwap;
+            @Swap.performed += instance.OnSwap;
+            @Swap.canceled += instance.OnSwap;
+            @OpenTicket.started += instance.OnOpenTicket;
+            @OpenTicket.performed += instance.OnOpenTicket;
+            @OpenTicket.canceled += instance.OnOpenTicket;
         }
 
         private void UnregisterCallbacks(IPlayerControlsActions instance)
@@ -329,6 +381,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
+            @Swap.started -= instance.OnSwap;
+            @Swap.performed -= instance.OnSwap;
+            @Swap.canceled -= instance.OnSwap;
+            @OpenTicket.started -= instance.OnOpenTicket;
+            @OpenTicket.performed -= instance.OnOpenTicket;
+            @OpenTicket.canceled -= instance.OnOpenTicket;
         }
 
         public void RemoveCallbacks(IPlayerControlsActions instance)
@@ -370,5 +428,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnAim(InputAction.CallbackContext context);
         void OnAimMouse(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
+        void OnSwap(InputAction.CallbackContext context);
+        void OnOpenTicket(InputAction.CallbackContext context);
     }
 }

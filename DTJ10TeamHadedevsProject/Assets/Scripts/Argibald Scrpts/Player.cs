@@ -23,15 +23,15 @@ public class Player : MonoBehaviour
     private Vector3 velocity; // Velocity of the player
     private Rigidbody2D characterController; // Reference to the CharacterController component
 
-    
-  
+    public bool isChef = true;
 
     public static Player instance;
     Controls playerInput;
     public Animator animator;
     public PlayerInput inputController;
     public static event Action onInteract;
-    
+    public GameObject hand, pocket, invItemUIPrefab, ticket;
+    public TextMeshProUGUI description;
 
 
     private void Awake()
@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
         characterController = GetComponent<Rigidbody2D>();
         Station.minigameStarted += disable;
         Minigame.endMinigameEvent += reEnable;
+        Minigame.giveItemEvent += addItem;
     }
 
     private void OnEnable()
@@ -56,8 +57,9 @@ public class Player : MonoBehaviour
         playerInput.PlayerControls.Movement.canceled += ctx => moveInput = Vector2.zero; // Reset moveInput when movement input is canceled
 
         playerInput.PlayerControls.Interact.performed += ctx => onInteract();
+        playerInput.PlayerControls.Swap.performed += ctx => swapHand();
+        playerInput.PlayerControls.OpenTicket.performed += ctx => openTicket();
 
-        
 
 
         // Subscribe to the jump input event
@@ -104,7 +106,52 @@ public class Player : MonoBehaviour
         
     }
 
-    
+    public void addItem(Ingredient item)
+    {
+        
+        if(hand.transform.childCount == 0)
+        {
+          GameObject spawnItem =  Instantiate(invItemUIPrefab, hand.transform);
+            spawnItem.GetComponent<InvItemUI>().setup(item);
+        }
+        else if(pocket.transform.childCount == 0)
+        {
+            GameObject spawnItem = Instantiate(invItemUIPrefab, pocket.transform);
+            spawnItem.GetComponent<InvItemUI>().setup(item);
+        }
+        else
+        {
+          Destroy(pocket.transform.GetChild(0).gameObject);
+            GameObject spawnItem = Instantiate(invItemUIPrefab, pocket.transform);
+            spawnItem.GetComponent<InvItemUI>().setup(item);
+        }
+        description.text = hand.transform.GetChild(0).name;
+    }
+
+    public void swapHand()
+    {
+        if (hand.transform.childCount > 0 && pocket.transform.childCount > 0)
+        {
+            Ingredient temp = hand.GetComponentInChildren<InvItemUI>().ingredient;
+            hand.GetComponentInChildren<InvItemUI>().setup(pocket.GetComponentInChildren<InvItemUI>().ingredient);
+            pocket.GetComponentInChildren<InvItemUI>().setup(temp);
+            description.text = hand.transform.GetChild(0).name;
+        }else if(hand.transform.childCount == 0 && pocket.transform.childCount > 0)
+        {
+            addItem(pocket.GetComponentInChildren<InvItemUI>().ingredient);
+            Destroy(pocket.transform.GetChild(0).gameObject);
+        }else if( pocket.transform.childCount == 0 && hand.transform.childCount > 0)
+        {
+            addItem(hand.GetComponentInChildren<InvItemUI>().ingredient);
+            Destroy(hand.transform.GetChild(0).gameObject);
+        }
+    }
+
+    public void openTicket()
+    {
+        if(ticket.transform.localScale==Vector3.one)ticket.transform.localScale = Vector3.zero;
+        else ticket.transform.localScale = Vector3.one;
+    }
 
 }
 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a559d0367c0e1a64d96e867e742acae8, type: 3}
+  m_Name: FIshy Toast
+  m_EditorClassIdentifier: 
+  ingredients:
+  - {fileID: 11400000, guid: 1e53d5e3b3642da4ab5cd4c29f043223, type: 2}
+  - {fileID: 11400000, guid: e26f432e0e6b6604a9adc3756f831b73, type: 2}
+  - {fileID: 11400000, guid: 05b711ed0c55b90449f6666dd2bc99bb, type: 2}
+  - {fileID: 11400000, guid: eab234583ef2763459ee06292e5d6501, type: 2}
+  allergenRequest: 

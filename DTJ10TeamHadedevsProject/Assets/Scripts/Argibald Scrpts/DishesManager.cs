@@ -43,10 +43,7 @@ public class DishesManager : Minigame
         inputActions.MinigameUIControls.Left.performed += ctx => checkInput("Left");
         inputActions.MinigameUIControls.Right.performed += ctx => checkInput("Right");
     }
-    private void OnTransformChildrenChanged()
-    {
-        
-    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -63,7 +60,7 @@ public class DishesManager : Minigame
         {
             direction.SetActive(false);
         }
-       GameObject directionObject = directions[UnityEngine.Random.Range(0, directions.Count-1)];
+       GameObject directionObject = directions[UnityEngine.Random.Range(0, directions.Count)];
         directionObject.SetActive(true);
         currentDirection=directionObject.name;
     }
@@ -84,7 +81,7 @@ public class DishesManager : Minigame
                 if(cleanCounter==3)
                 {
                     endMinigame();
-                    SceneManager.UnloadSceneAsync("Minigame_Dishes");
+                    SceneManager.UnloadSceneAsync("Minigame_Vegetables");
                 }
             }
             sendDirection();
