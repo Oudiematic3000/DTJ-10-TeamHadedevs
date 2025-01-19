@@ -7,9 +7,10 @@ public class StorageButton : MonoBehaviour
     public Ingredient ingredient;
     public TextMeshProUGUI ingredientName;
     public Image image;
+    public StorageManager storageManager;
     void Start()
     {
-        
+        storageManager=GameObject.FindAnyObjectByType<StorageManager>();
     }
 
     // Update is called once per frame
@@ -22,11 +23,11 @@ public class StorageButton : MonoBehaviour
     {
         ingredient = item;
         ingredientName.text = ingredient.ingredientName;
-        image.sprite=ingredient.rawSprite;
+        image.sprite=ingredient.sprite;
     }
 
-    void giveIngredient()
+    public void giveIngredient()
     {
-        //todo
+        storageManager.giveItemChefManager(ingredient);
     }
 }

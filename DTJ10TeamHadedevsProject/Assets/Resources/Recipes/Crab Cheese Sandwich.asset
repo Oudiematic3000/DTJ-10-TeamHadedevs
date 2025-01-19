@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a559d0367c0e1a64d96e867e742acae8, type: 3}
+  m_Name: Crab Cheese Sandwich
+  m_EditorClassIdentifier: 
+  ingredients:
+  - {fileID: 11400000, guid: 3d1a346079e361643884e87892c48b51, type: 2}
+  - {fileID: 11400000, guid: e26f432e0e6b6604a9adc3756f831b73, type: 2}
+  - {fileID: 11400000, guid: b6141bee43e52fe4698a77a6322bf59c, type: 2}
+  allergenRequest: 

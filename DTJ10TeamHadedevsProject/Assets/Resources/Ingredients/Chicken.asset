@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 713f58a307850884082585b4f7ae1f1b, type: 3}
-  m_Name: Rhubarb
+  m_Name: Chicken
   m_EditorClassIdentifier: 
-  ingredientName: Rhubarb
-  ingredientType: 2
+  ingredientName: Raw Chicken
+  ingredientType: 0
   sprite: {fileID: 0}
-  toxic: 0
+  toxic: 1
   raw: 1
   products:
-  - {fileID: 11400000, guid: f085091d86238e14eae4a15bc770a500, type: 2}
-  - {fileID: 11400000, guid: 52874081841aa904fb50f9e6b48f72b9, type: 2}
-  badPrepProduct: {fileID: 0}
-  allergens: []
+  - {fileID: 11400000, guid: ffa83b668f3459044b9933f53f7b7efb, type: 2}
+  badPrepProduct: {fileID: 11400000, guid: 7bf2115a876281142a8431707511b265, type: 2}
