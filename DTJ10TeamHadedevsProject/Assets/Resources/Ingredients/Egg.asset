@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Egg
   ingredientType: 0
-  sprite: {fileID: 0}
+  sprite: {fileID: 897413803, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 1
   raw: 1
   products:
   - {fileID: 11400000, guid: a01846a565afe8d46bf95be2392e995d, type: 2}
   badPrepProduct: {fileID: 11400000, guid: 69323ebdffbee4c438b4c29644209c21, type: 2}
-  allergens: []
+  allergen: 

@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Lactose-free Cheese
   ingredientType: 3
-  rawSprite: {fileID: 0}
-  cookedSprite: {fileID: 0}
+  sprite: {fileID: 949269204, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
+  raw: 0
+  products: []
+  badPrepProduct: {fileID: 0}
+  allergen: 

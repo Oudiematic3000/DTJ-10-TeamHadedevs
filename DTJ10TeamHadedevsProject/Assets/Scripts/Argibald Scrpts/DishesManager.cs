@@ -43,10 +43,7 @@ public class DishesManager : Minigame
         inputActions.MinigameUIControls.Left.performed += ctx => checkInput("Left");
         inputActions.MinigameUIControls.Right.performed += ctx => checkInput("Right");
     }
-    private void OnTransformChildrenChanged()
-    {
-        
-    }
+    
     // Update is called once per frame
     void Update()
     {

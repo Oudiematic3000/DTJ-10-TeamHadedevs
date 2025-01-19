@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713f58a307850884082585b4f7ae1f1b, type: 3}
   m_Name: SharkCooked
   m_EditorClassIdentifier: 
-  ingredientName: Greenland Shark (Cooked)
+  ingredientName: Greenland Shark (Cut)
   ingredientType: 4
-  sprite: {fileID: 0}
+  sprite: {fileID: 4263383502176732163, guid: 46481e69f84d32c4f9e47a7ec4724c86, type: 3}
   toxic: 0
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 

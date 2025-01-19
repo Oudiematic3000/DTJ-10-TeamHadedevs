@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Rice (Undercooked)
   ingredientType: 4
-  sprite: {fileID: 0}
+  sprite: {fileID: 1504946623, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
   raw: 1
   products: []
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 

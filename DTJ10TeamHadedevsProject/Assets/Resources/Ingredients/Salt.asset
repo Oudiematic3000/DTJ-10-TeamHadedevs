@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Salt
   ingredientType: 3
-  sprite: {fileID: 0}
+  sprite: {fileID: -1209143852, guid: 7c9eea653f797af45b4642b457a89e54, type: 3}
   toxic: 0
   raw: 0
   products: []

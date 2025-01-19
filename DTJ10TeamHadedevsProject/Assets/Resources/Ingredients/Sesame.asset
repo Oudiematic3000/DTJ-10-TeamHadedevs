@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Sesame Seeds
   ingredientType: 3
-  sprite: {fileID: 0}
+  sprite: {fileID: -399920848139412841, guid: a91f049ec9a448e4096deda3020219ff, type: 3}
   toxic: 0
   raw: 0
   products: []

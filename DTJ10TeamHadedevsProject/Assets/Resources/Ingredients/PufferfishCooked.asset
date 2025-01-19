@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713f58a307850884082585b4f7ae1f1b, type: 3}
   m_Name: PufferfishCooked
   m_EditorClassIdentifier: 
-  ingredientName: Pufferfish (cooked)
+  ingredientName: Pufferfish (Cut)
   ingredientType: 4
-  sprite: {fileID: 0}
+  sprite: {fileID: 1410134041, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 

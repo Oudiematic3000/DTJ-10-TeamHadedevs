@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Greenland Shark (Toxic)
   ingredientType: 4
-  sprite: {fileID: 0}
+  sprite: {fileID: 4263383502176732163, guid: 46481e69f84d32c4f9e47a7ec4724c86, type: 3}
   toxic: 1
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 

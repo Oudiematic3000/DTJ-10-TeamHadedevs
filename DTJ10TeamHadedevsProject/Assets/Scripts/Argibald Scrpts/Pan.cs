@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,10 +13,14 @@ public class Pan : Minigame
     public bool cooking;
     public GameObject center;
 
+    public TextMeshProUGUI countdown;
     public Slider heatGauge;
     public float heat = 0f;
+
+    public InvItemUI heldItem;
     void Start()
     {
+        heldItem = GameObject.Find("Hand").GetComponentInChildren<InvItemUI>();
         GameObject.Find("MeatCanvas").GetComponent<Canvas>().worldCamera=Camera.main;
         center.transform.position = GameObject.Find("Player").transform.position;
         meat.transform.position = new Vector3(center.transform.position.x,center.transform.position.y+2,0);
@@ -50,16 +55,36 @@ public class Pan : Minigame
 
     public IEnumerator gameTimer()
     {
-        yield return new WaitForSeconds(12f);
+        float timeRemaining = 12f;
+        while (timeRemaining > 0)
+        {
+            countdown.text = (Mathf.CeilToInt(timeRemaining)).ToString();
+            yield return null;
+            timeRemaining -=Time.deltaTime;
+        }
+
+        
         if (heat > 0.35 && heat < 0.65)
         {
-            //good cook
+            Ingredient temp = heldItem.ingredient;
+            Destroy(heldItem.gameObject);
+            yield return null;
+            giveItem(goodCook(temp));
+            SceneManager.UnloadSceneAsync("Minigame_Meat");
+            endMinigame();
+        }
+        else if(heat <0.35)
+        {
+            Ingredient temp = heldItem.ingredient;
+            Destroy(heldItem.gameObject);
+            yield return null;
+            giveItem(badCook(temp));
             SceneManager.UnloadSceneAsync("Minigame_Meat");
             endMinigame();
         }
         else
         {
-            //badcook
+            Destroy(heldItem.gameObject);
             SceneManager.UnloadSceneAsync("Minigame_Meat");
             endMinigame();
         }
