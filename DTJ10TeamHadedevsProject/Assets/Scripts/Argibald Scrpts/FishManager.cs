@@ -16,6 +16,7 @@ public class FishManager : Minigame
 
     void Start()
     {
+        
         heldItem = GameObject.Find("Hand").GetComponentInChildren<InvItemUI>();
     }
 
