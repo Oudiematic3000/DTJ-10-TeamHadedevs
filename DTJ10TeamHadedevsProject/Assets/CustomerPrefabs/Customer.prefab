@@ -103,9 +103,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccbd47f2150099e46afbd87970e7267e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allergies:
+  - Wheat
+  - Cashew
+  - Peanut
+  - Hazelnut
+  - Dairy
+  - Salt
+  - Sesame
   target: {fileID: 0}
   sitting: 0
   walking: 0
+  isTarget: 0
+  seatNum: 0
 --- !u!195 &4389775910331463798
 NavMeshAgent:
   m_ObjectHideFlags: 0

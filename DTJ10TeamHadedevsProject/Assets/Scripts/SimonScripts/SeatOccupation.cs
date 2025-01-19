@@ -9,6 +9,7 @@ public class SeatOccupation : MonoBehaviour
     public static event Action<GameObject> taken;
     public static event Action<GameObject> notTaken;
     public String assignedCustomer;
+    public int seatNum;
     [SerializeField] public float waitTime = 10f;
 
 
