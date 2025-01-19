@@ -52,6 +52,9 @@ public class Station : MonoBehaviour
                 case stationType.Prep:
                     SceneManager.LoadSceneAsync("Minigame_Prep", LoadSceneMode.Additive);
                     break;
+                case stationType.Storage:
+                    SceneManager.LoadSceneAsync("Minigame_Storage", LoadSceneMode.Additive);
+                    break;
             }
             minigameStarted();
         }

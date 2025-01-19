@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 713f58a307850884082585b4f7ae1f1b, type: 3}
-  m_Name: Rhubarb
+  m_Name: Shark
   m_EditorClassIdentifier: 
-  ingredientName: Rhubarb
-  ingredientType: 2
+  ingredientName: Greenland Shark
+  ingredientType: 1
   sprite: {fileID: 0}
-  toxic: 0
+  toxic: 1
   raw: 1
   products:
-  - {fileID: 11400000, guid: f085091d86238e14eae4a15bc770a500, type: 2}
-  - {fileID: 11400000, guid: 52874081841aa904fb50f9e6b48f72b9, type: 2}
-  badPrepProduct: {fileID: 0}
+  - {fileID: 11400000, guid: 5ae56e2144c077b48bbc89f5c69e1772, type: 2}
+  badPrepProduct: {fileID: 11400000, guid: 99f87a198f5e5e347a4cc9b7535cfd08, type: 2}
   allergens: []

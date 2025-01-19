@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class Minigame : MonoBehaviour
 {
-    public static event Action endMinigameEvent;    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static event Action endMinigameEvent;
+    public static event Action<Ingredient> giveItemEvent;
     void Start()
     {
         
@@ -13,6 +14,10 @@ public class Minigame : MonoBehaviour
         endMinigameEvent();
     }
 
+    protected void giveItem(Ingredient item)
+    {
+        giveItemEvent(item);
+    }
     // Update is called once per frame
     void Update()
     {

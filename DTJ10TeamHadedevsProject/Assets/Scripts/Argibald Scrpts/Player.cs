@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     public Animator animator;
     public PlayerInput inputController;
     public static event Action onInteract;
-    
+    public GameObject hand, pocket;
 
 
     private void Awake()
@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
         characterController = GetComponent<Rigidbody2D>();
         Station.minigameStarted += disable;
         Minigame.endMinigameEvent += reEnable;
+
     }
 
     private void OnEnable()
