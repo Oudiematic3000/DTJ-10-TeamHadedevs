@@ -742,8 +742,11 @@ MonoBehaviour:
   customerTargetPrefab: {fileID: 8730341272445439175, guid: 42a193883cd00fe4f87e48e74a6ae42d, type: 3}
   customerPrefab: {fileID: 2633816062230043992, guid: c38d482408966b448af4d5de8ab42718, type: 3}
   targetPrefab: {fileID: 2148532197247253269, guid: a20fdc76cbf69434da2abd7ecf5eaf58, type: 3}
-  waitTime: 10
+  waitTime: 5
   currentOpenSeat: {fileID: 0}
+  seatOfTarget: {fileID: 0}
+  numberOfSpawns: 8
+  targetSpawned: 0
 --- !u!1001 &1139312732
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class CustomerScript : MonoBehaviour
     NavMeshAgent agent;
     public bool sitting;
     public bool walking;
+    public bool isTarget = false;
 
     void Start()
     {

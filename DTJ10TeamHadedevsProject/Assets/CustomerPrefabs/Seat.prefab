@@ -148,4 +148,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assignedCustomer: 
-  waitTime: 20
+  waitTime: 120
