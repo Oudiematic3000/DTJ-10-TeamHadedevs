@@ -1,0 +1,3600 @@
+fileFormatVersion: 2
+guid: 70486f839f05f994b8cbc59a059e6cb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4068703689396362570
+    second: CLothes and Stuff Sprite sheet_0
+  - first:
+      213: 6336811954807484400
+    second: CLothes and Stuff Sprite sheet_1
+  - first:
+      213: 7154658890399413599
+    second: CLothes and Stuff Sprite sheet_2
+  - first:
+      213: -1569120005163550739
+    second: CLothes and Stuff Sprite sheet_3
+  - first:
+      213: -6165328094808312495
+    second: CLothes and Stuff Sprite sheet_4
+  - first:
+      213: -2505486465846664527
+    second: CLothes and Stuff Sprite sheet_5
+  - first:
+      213: -6377281193769400299
+    second: CLothes and Stuff Sprite sheet_6
+  - first:
+      213: 470479624212799734
+    second: CLothes and Stuff Sprite sheet_7
+  - first:
+      213: -2782699526156786965
+    second: CLothes and Stuff Sprite sheet_8
+  - first:
+      213: -5074827566196557335
+    second: CLothes and Stuff Sprite sheet_9
+  - first:
+      213: -343334786742281634
+    second: CLothes and Stuff Sprite sheet_10
+  - first:
+      213: 8471927308233888813
+    second: CLothes and Stuff Sprite sheet_11
+  - first:
+      213: 6724702964533587067
+    second: CLothes and Stuff Sprite sheet_12
+  - first:
+      213: 3701454378933763577
+    second: CLothes and Stuff Sprite sheet_13
+  - first:
+      213: -370940508913825333
+    second: CLothes and Stuff Sprite sheet_14
+  - first:
+      213: 2479211777853330043
+    second: CLothes and Stuff Sprite sheet_15
+  - first:
+      213: 354582022083183790
+    second: CLothes and Stuff Sprite sheet_16
+  - first:
+      213: -3679380085659894809
+    second: CLothes and Stuff Sprite sheet_17
+  - first:
+      213: 1741969469754171327
+    second: CLothes and Stuff Sprite sheet_18
+  - first:
+      213: -1591839108940912185
+    second: CLothes and Stuff Sprite sheet_19
+  - first:
+      213: -3178881789316304115
+    second: CLothes and Stuff Sprite sheet_20
+  - first:
+      213: -6242702104056220952
+    second: CLothes and Stuff Sprite sheet_21
+  - first:
+      213: 4683065199134292000
+    second: CLothes and Stuff Sprite sheet_22
+  - first:
+      213: 4997097447380670826
+    second: CLothes and Stuff Sprite sheet_23
+  - first:
+      213: -5109065545323739499
+    second: CLothes and Stuff Sprite sheet_24
+  - first:
+      213: -1073049286634586394
+    second: CLothes and Stuff Sprite sheet_25
+  - first:
+      213: -9212327484967226465
+    second: CLothes and Stuff Sprite sheet_26
+  - first:
+      213: -3377613391173672522
+    second: CLothes and Stuff Sprite sheet_27
+  - first:
+      213: -1512769818277319375
+    second: CLothes and Stuff Sprite sheet_28
+  - first:
+      213: 4973355454411248853
+    second: CLothes and Stuff Sprite sheet_29
+  - first:
+      213: -106639777452602370
+    second: CLothes and Stuff Sprite sheet_30
+  - first:
+      213: -7376551480553666749
+    second: CLothes and Stuff Sprite sheet_31
+  - first:
+      213: -7083986874399634876
+    second: CLothes and Stuff Sprite sheet_32
+  - first:
+      213: 7294636121429414925
+    second: CLothes and Stuff Sprite sheet_33
+  - first:
+      213: -1703599859206267407
+    second: CLothes and Stuff Sprite sheet_34
+  - first:
+      213: -7326362587772682619
+    second: CLothes and Stuff Sprite sheet_35
+  - first:
+      213: 1973934225334179884
+    second: CLothes and Stuff Sprite sheet_36
+  - first:
+      213: -6386831028589669861
+    second: CLothes and Stuff Sprite sheet_37
+  - first:
+      213: 5251380704032667885
+    second: CLothes and Stuff Sprite sheet_38
+  - first:
+      213: -3455490866254965809
+    second: CLothes and Stuff Sprite sheet_39
+  - first:
+      213: -8704411516334347819
+    second: CLothes and Stuff Sprite sheet_40
+  - first:
+      213: 5603552385714567307
+    second: CLothes and Stuff Sprite sheet_41
+  - first:
+      213: 7946123754965703714
+    second: CLothes and Stuff Sprite sheet_42
+  - first:
+      213: -83319121058847394
+    second: CLothes and Stuff Sprite sheet_43
+  - first:
+      213: 9018689613880629398
+    second: CLothes and Stuff Sprite sheet_44
+  - first:
+      213: 762254402863930934
+    second: CLothes and Stuff Sprite sheet_45
+  - first:
+      213: 5796636422268584402
+    second: CLothes and Stuff Sprite sheet_46
+  - first:
+      213: 7271902851257999649
+    second: CLothes and Stuff Sprite sheet_47
+  - first:
+      213: -3459427715632192646
+    second: CLothes and Stuff Sprite sheet_48
+  - first:
+      213: 5621585678228218726
+    second: CLothes and Stuff Sprite sheet_49
+  - first:
+      213: 2656167885493496665
+    second: CLothes and Stuff Sprite sheet_50
+  - first:
+      213: -397579515916411368
+    second: CLothes and Stuff Sprite sheet_51
+  - first:
+      213: 2029682026085075671
+    second: CLothes and Stuff Sprite sheet_52
+  - first:
+      213: 5389397606837068036
+    second: CLothes and Stuff Sprite sheet_53
+  - first:
+      213: -8132645000060257508
+    second: CLothes and Stuff Sprite sheet_54
+  - first:
+      213: 3043520230079854358
+    second: CLothes and Stuff Sprite sheet_55
+  - first:
+      213: -6158008090282208759
+    second: CLothes and Stuff Sprite sheet_56
+  - first:
+      213: 4061398341845400322
+    second: CLothes and Stuff Sprite sheet_57
+  - first:
+      213: -4897342635657528850
+    second: CLothes and Stuff Sprite sheet_58
+  - first:
+      213: -8918846747629035010
+    second: CLothes and Stuff Sprite sheet_59
+  - first:
+      213: -2772071576251147996
+    second: CLothes and Stuff Sprite sheet_60
+  - first:
+      213: -8136765465689993455
+    second: CLothes and Stuff Sprite sheet_61
+  - first:
+      213: -3305424513354354207
+    second: CLothes and Stuff Sprite sheet_62
+  - first:
+      213: -4077915239218143509
+    second: CLothes and Stuff Sprite sheet_63
+  - first:
+      213: -1995511929226787429
+    second: CLothes and Stuff Sprite sheet_64
+  - first:
+      213: 179307246149362410
+    second: CLothes and Stuff Sprite sheet_65
+  - first:
+      213: -3688422158310706195
+    second: CLothes and Stuff Sprite sheet_66
+  - first:
+      213: 6586534203179789086
+    second: CLothes and Stuff Sprite sheet_67
+  - first:
+      213: 2063220611577075018
+    second: CLothes and Stuff Sprite sheet_68
+  - first:
+      213: -2315917182660244715
+    second: CLothes and Stuff Sprite sheet_69
+  - first:
+      213: -1771854978564418044
+    second: CLothes and Stuff Sprite sheet_70
+  - first:
+      213: 7778592565293093514
+    second: CLothes and Stuff Sprite sheet_71
+  - first:
+      213: -3721602903267444369
+    second: CLothes and Stuff Sprite sheet_72
+  - first:
+      213: 2861459579327285030
+    second: CLothes and Stuff Sprite sheet_73
+  - first:
+      213: 2367662567534118311
+    second: CLothes and Stuff Sprite sheet_74
+  - first:
+      213: -5854372937020753754
+    second: CLothes and Stuff Sprite sheet_75
+  - first:
+      213: -3971062051871359157
+    second: CLothes and Stuff Sprite sheet_76
+  - first:
+      213: 4066244832114308946
+    second: CLothes and Stuff Sprite sheet_77
+  - first:
+      213: 6989021764591077322
+    second: CLothes and Stuff Sprite sheet_78
+  - first:
+      213: 8333239053882578692
+    second: CLothes and Stuff Sprite sheet_79
+  - first:
+      213: -1644219059502099673
+    second: CLothes and Stuff Sprite sheet_80
+  - first:
+      213: -5751403519123877032
+    second: CLothes and Stuff Sprite sheet_81
+  - first:
+      213: 4164172329698357254
+    second: CLothes and Stuff Sprite sheet_82
+  - first:
+      213: 4385653165686597468
+    second: CLothes and Stuff Sprite sheet_83
+  - first:
+      213: 3991092570295523712
+    second: CLothes and Stuff Sprite sheet_84
+  - first:
+      213: 2281938690332609655
+    second: CLothes and Stuff Sprite sheet_85
+  - first:
+      213: -3383288998902977997
+    second: CLothes and Stuff Sprite sheet_86
+  - first:
+      213: -7953359210174705362
+    second: CLothes and Stuff Sprite sheet_87
+  - first:
+      213: 8629878925610603236
+    second: CLothes and Stuff Sprite sheet_88
+  - first:
+      213: 7724487860179426349
+    second: CLothes and Stuff Sprite sheet_89
+  - first:
+      213: -2921192610569660185
+    second: CLothes and Stuff Sprite sheet_90
+  - first:
+      213: -6663755069364468711
+    second: CLothes and Stuff Sprite sheet_91
+  - first:
+      213: 1762598610932203628
+    second: CLothes and Stuff Sprite sheet_92
+  - first:
+      213: 5828024028232739560
+    second: CLothes and Stuff Sprite sheet_93
+  - first:
+      213: -8747526007083889299
+    second: CLothes and Stuff Sprite sheet_94
+  - first:
+      213: -3658489116415839255
+    second: CLothes and Stuff Sprite sheet_95
+  - first:
+      213: 5352551325890176499
+    second: CLothes and Stuff Sprite sheet_96
+  - first:
+      213: -3165656790283926863
+    second: CLothes and Stuff Sprite sheet_97
+  - first:
+      213: 1413775058005998571
+    second: CLothes and Stuff Sprite sheet_98
+  - first:
+      213: 5444704355336215679
+    second: CLothes and Stuff Sprite sheet_99
+  - first:
+      213: 2566297488679322758
+    second: CLothes and Stuff Sprite sheet_100
+  - first:
+      213: 1833922546849003139
+    second: CLothes and Stuff Sprite sheet_101
+  - first:
+      213: 533767576636247257
+    second: CLothes and Stuff Sprite sheet_102
+  - first:
+      213: 2075626623291389364
+    second: CLothes and Stuff Sprite sheet_103
+  - first:
+      213: -6784625056616527612
+    second: CLothes and Stuff Sprite sheet_104
+  - first:
+      213: 721007066866945816
+    second: CLothes and Stuff Sprite sheet_105
+  - first:
+      213: -187407481318412078
+    second: CLothes and Stuff Sprite sheet_106
+  - first:
+      213: -7731485532472707806
+    second: CLothes and Stuff Sprite sheet_107
+  - first:
+      213: 664150154943936388
+    second: CLothes and Stuff Sprite sheet_108
+  - first:
+      213: -5106425460568026498
+    second: CLothes and Stuff Sprite sheet_109
+  - first:
+      213: -685042032399058175
+    second: CLothes and Stuff Sprite sheet_110
+  - first:
+      213: -2208401924236003167
+    second: CLothes and Stuff Sprite sheet_111
+  - first:
+      213: 5895492871756081351
+    second: CLothes and Stuff Sprite sheet_112
+  - first:
+      213: -1158353541638505601
+    second: CLothes and Stuff Sprite sheet_113
+  - first:
+      213: -2200297929567996126
+    second: CLothes and Stuff Sprite sheet_114
+  - first:
+      213: -8269649720855213600
+    second: CLothes and Stuff Sprite sheet_115
+  - first:
+      213: -3783444444261561630
+    second: CLothes and Stuff Sprite sheet_116
+  - first:
+      213: 6014508603996546292
+    second: CLothes and Stuff Sprite sheet_117
+  - first:
+      213: 8165198296512971998
+    second: CLothes and Stuff Sprite sheet_118
+  - first:
+      213: 4241785333148429988
+    second: CLothes and Stuff Sprite sheet_119
+  - first:
+      213: -8220565804491176350
+    second: CLothes and Stuff Sprite sheet_120
+  - first:
+      213: -8886995009167254423
+    second: CLothes and Stuff Sprite sheet_121
+  - first:
+      213: 3054550460904637428
+    second: CLothes and Stuff Sprite sheet_122
+  - first:
+      213: 6209229799109284000
+    second: CLothes and Stuff Sprite sheet_123
+  - first:
+      213: -1889321178321429606
+    second: CLothes and Stuff Sprite sheet_124
+  - first:
+      213: 7198888471583458719
+    second: CLothes and Stuff Sprite sheet_125
+  - first:
+      213: -6461946000100988007
+    second: CLothes and Stuff Sprite sheet_126
+  - first:
+      213: -6765084068655731171
+    second: CLothes and Stuff Sprite sheet_127
+  - first:
+      213: 7725584026626681939
+    second: CLothes and Stuff Sprite sheet_128
+  - first:
+      213: 6151847580021207318
+    second: CLothes and Stuff Sprite sheet_129
+  - first:
+      213: -22850254396627940
+    second: CLothes and Stuff Sprite sheet_130
+  - first:
+      213: 7265282094337917474
+    second: CLothes and Stuff Sprite sheet_131
+  - first:
+      213: -4341019775267288264
+    second: CLothes and Stuff Sprite sheet_132
+  - first:
+      213: 8303907058569164261
+    second: CLothes and Stuff Sprite sheet_133
+  - first:
+      213: 8547164874611794339
+    second: CLothes and Stuff Sprite sheet_134
+  - first:
+      213: 8914885869725609602
+    second: CLothes and Stuff Sprite sheet_135
+  - first:
+      213: 2611741506198950450
+    second: CLothes and Stuff Sprite sheet_136
+  - first:
+      213: -2800307244368982327
+    second: CLothes and Stuff Sprite sheet_137
+  - first:
+      213: -5056269897693690780
+    second: CLothes and Stuff Sprite sheet_138
+  - first:
+      213: -8606382227002839318
+    second: CLothes and Stuff Sprite sheet_139
+  - first:
+      213: -5842471909575360929
+    second: CLothes and Stuff Sprite sheet_140
+  - first:
+      213: -515367666530176018
+    second: CLothes and Stuff Sprite sheet_141
+  - first:
+      213: 6164922208847881733
+    second: CLothes and Stuff Sprite sheet_142
+  - first:
+      213: 1268925376299887775
+    second: CLothes and Stuff Sprite sheet_143
+  - first:
+      213: -7223949328998117791
+    second: CLothes and Stuff Sprite sheet_144
+  - first:
+      213: 3176140546757125179
+    second: CLothes and Stuff Sprite sheet_145
+  - first:
+      213: -5104222169466580347
+    second: CLothes and Stuff Sprite sheet_146
+  - first:
+      213: 5192040285332405673
+    second: CLothes and Stuff Sprite sheet_147
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 320
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_F_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b265392d8f0987c0800000000000000
+      internalID: -4068703689396362570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_B_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffafb626e0e0f750800000000000000
+      internalID: 6336811954807484400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_R_0
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55f8539a547a4360800000000000000
+      internalID: 7154658890399413599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_L_0
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7744a3bad593ae0800000000000000
+      internalID: -1569120005163550739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_F_0
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155f63953ca507aa0800000000000000
+      internalID: -6165328094808312495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_B_0
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b229ad7559ba3dd0800000000000000
+      internalID: -2505486465846664527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_R_0
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5188894ea885f77a0800000000000000
+      internalID: -6377281193769400299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_L_0
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0634bb9ba778600800000000000000
+      internalID: 470479624212799734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownEye_F_0
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2e6ca368dd169d0800000000000000
+      internalID: -2782699526156786965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownEye_R_0
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e97e7457379299b0800000000000000
+      internalID: -5074827566196557335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownEye_L_0
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a113d94da3c3bf0800000000000000
+      internalID: -343334786742281634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_F_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24563a2005529570800000000000000
+      internalID: 8471927308233888813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_B_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c6a0d97b1f25d50800000000000000
+      internalID: 6724702964533587067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_R_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd39a085253e5330800000000000000
+      internalID: 3701454378933763577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_L_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9836d82972adaf0800000000000000
+      internalID: -370940508913825333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_F_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7299edf9fde76220800000000000000
+      internalID: 2479211777853330043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_B_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4020e687abbe400800000000000000
+      internalID: 354582022083183790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_R_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb78986e4730fcc0800000000000000
+      internalID: -3679380085659894809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_L_1
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfd54ed008bc2810800000000000000
+      internalID: 1741969469754171327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownEye_F_1
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9a00ca3c6a8e9e0800000000000000
+      internalID: -1591839108940912185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownEye_R_1
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03f7d4ead752e3d0800000000000000
+      internalID: -3178881789316304115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownEye_L_1
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e23529f2877d59a0800000000000000
+      internalID: -6242702104056220952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_F_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028b4669cf69df040800000000000000
+      internalID: 4683065199134292000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_B_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69d22317a1495540800000000000000
+      internalID: 4997097447380670826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_R_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5968acc94f3f819b0800000000000000
+      internalID: -5109065545323739499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_L_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeb8abeb53cb11f0800000000000000
+      internalID: -1073049286634586394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_F_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93f5ff16fc372080800000000000000
+      internalID: -9212327484967226465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_B_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1ad7e148e4021d0800000000000000
+      internalID: -3377613391173672522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_R_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13de5a28ddf810be0800000000000000
+      internalID: -1512769818277319375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_L_2
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d41fe19f68e40540800000000000000
+      internalID: 4973355454411248853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueEye_F_0
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbc20affa3258ef0800000000000000
+      internalID: -106639777452602370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueEye_R_0
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3478736d28931a990800000000000000
+      internalID: -7376551480553666749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueEye_L_0
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a41e5687f90bd90800000000000000
+      internalID: -7083986874399634876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenL_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04988f57e0cb3560800000000000000
+      internalID: 7294636121429414925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenL_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdda9044f89b58e0800000000000000
+      internalID: -1703599859206267407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenL_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef81c0b08835a90800000000000000
+      internalID: -7326362587772682619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenL_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28970738b2d46b10800000000000000
+      internalID: 1973934225334179884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_F_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b125874b40b6d57a0800000000000000
+      internalID: -6386831028589669861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_B_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de835346de6a0e840800000000000000
+      internalID: 5251380704032667885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_R_0
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc314487d51ab00d0800000000000000
+      internalID: -3455490866254965809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_L_0
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9621608d7b33780800000000000000
+      internalID: -8704411516334347819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_F_0
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b883fc6b431d3cd40800000000000000
+      internalID: 5603552385714567307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_B_0
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c160c647d464e60800000000000000
+      internalID: 7946123754965703714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_R_0
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e552a4a63bdf7def0800000000000000
+      internalID: -83319121058847394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_L_0
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6981cd6bb62d82d70800000000000000
+      internalID: 9018689613880629398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueEye_F_1
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e9e2f3752149a00800000000000000
+      internalID: 762254402863930934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueEye_R_1
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d109693d1ac17050800000000000000
+      internalID: 5796636422268584402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueEye_L_1
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12122627d1dfae460800000000000000
+      internalID: 7271902851257999649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkL_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a732a9b42d4adffc0800000000000000
+      internalID: -3459427715632192646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkL_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6636731d362e30e40800000000000000
+      internalID: 5621585678228218726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkL_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95be3ae6e9a9cd420800000000000000
+      internalID: 2656167885493496665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkL_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e94d769838b7af0800000000000000
+      internalID: -397579515916411368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_F_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dacbcb8c01ea2c10800000000000000
+      internalID: 2029682026085075671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_B_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4012dd4b19cfaca40800000000000000
+      internalID: 5389397606837068036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_R_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b3d07067a032f80800000000000000
+      internalID: -8132645000060257508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_L_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617ff942681cc3a20800000000000000
+      internalID: 3043520230079854358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_F_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9025fb6b44c5a8aa0800000000000000
+      internalID: -6158008090282208759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_B_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b3e01164cfc5830800000000000000
+      internalID: 4061398341845400322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_R_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9f142f1d4290cb0800000000000000
+      internalID: -4897342635657528850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_L_1
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef16c691324e93480800000000000000
+      internalID: -8918846747629035010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEye_F_0
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429d795a69f9789d0800000000000000
+      internalID: -2772071576251147996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEye_R_0
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fc1ec5be6641f80800000000000000
+      internalID: -8136765465689993455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEye_L_0
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e135a10be5c022d0800000000000000
+      internalID: -3305424513354354207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlondeL_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee104612b55867c0800000000000000
+      internalID: -4077915239218143509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlondeL_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95026919748e44e0800000000000000
+      internalID: -1995511929226787429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlondeL_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2e2688df60d7200800000000000000
+      internalID: 179307246149362410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlondeL_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3f530d69710dcc0800000000000000
+      internalID: -3688422158310706195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_F_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bed79f5f1186b50800000000000000
+      internalID: 6586534203179789086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_B_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45d05ef63802ac10800000000000000
+      internalID: 2063220611577075018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_R_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b0056b7953cdfd0800000000000000
+      internalID: -2315917182660244715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_L_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4061921e84b1967e0800000000000000
+      internalID: -1771854978564418044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_F_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a821ac2b9bc13fb60800000000000000
+      internalID: 7778592565293093514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_B_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f697eab90e53a5cc0800000000000000
+      internalID: -3721602903267444369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_R_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62701f4a352f5b720800000000000000
+      internalID: 2861459579327285030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_L_2
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a54cdd8f80abd020800000000000000
+      internalID: 2367662567534118311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEye_F_1
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8b732e4d611cea0800000000000000
+      internalID: -5854372937020753754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEye_R_1
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f7c297a14f3e8c0800000000000000
+      internalID: -3971062051871359157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEye_L_1
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257f0f381243e6830800000000000000
+      internalID: 4066244832114308946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackL_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7cce5f34efdf060800000000000000
+      internalID: 6989021764591077322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackL_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4075513a4cc95a370800000000000000
+      internalID: 8333239053882578692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackL_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72353711a7f8e29e0800000000000000
+      internalID: -1644219059502099673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackL_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85390bab8f8ee20b0800000000000000
+      internalID: -5751403519123877032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_F_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6007e2fcbac1ac930800000000000000
+      internalID: 4164172329698357254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_B_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5721d86158fcdc30800000000000000
+      internalID: 4385653165686597468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_R_0
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0895a260c85336730800000000000000
+      internalID: 3991092570295523712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_L_0
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cce7c06231baf10800000000000000
+      internalID: 2281938690332609655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_F_0
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aa6e7b4942c01d0800000000000000
+      internalID: -3383288998902977997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_B_0
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e219472efedff9190800000000000000
+      internalID: -7953359210174705362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_R_0
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e256a7e82d73c770800000000000000
+      internalID: 8629878925610603236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_L_0
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cdfc168c4e23b60800000000000000
+      internalID: 7724487860179426349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8df7e3cc6d577d0800000000000000
+      internalID: -2921192610569660185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914825c02169583a0800000000000000
+      internalID: -6663755069364468711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6006361912067810800000000000000
+      internalID: 1762598610932203628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eae049b9fc41e050800000000000000
+      internalID: 5828024028232739560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownL_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d0644617b8a9680800000000000000
+      internalID: -8747526007083889299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownL_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3b669388f6a3dc0800000000000000
+      internalID: -3658489116415839255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownL_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5eab56215184a40800000000000000
+      internalID: 5352551325890176499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownL_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2c25eebe35114d0800000000000000
+      internalID: -3165656790283926863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_F_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb31ccbcecbe9310800000000000000
+      internalID: 1413775058005998571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_B_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c56de83c97f8b40800000000000000
+      internalID: 5444704355336215679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_R_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68445b818f15d9320800000000000000
+      internalID: 2566297488679322758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_L_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386b38ef6d6637910800000000000000
+      internalID: 1833922546849003139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_F_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc460e68c2586700800000000000000
+      internalID: 533767576636247257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_B_1
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b570afaa6b1ecc10800000000000000
+      internalID: 2075626623291389364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_R_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409482e157b28d1a0800000000000000
+      internalID: -6784625056616527612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_L_1
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f86257b18810a00800000000000000
+      internalID: 721007066866945816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0f3cf73e1366df0800000000000000
+      internalID: -187407481318412078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22574e21fde34b490800000000000000
+      internalID: -7731485532472707806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48734fe0c09873900800000000000000
+      internalID: 664150154943936388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7215de39155229b0800000000000000
+      internalID: -5106425460568026498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b74aaa6ed3e76f0800000000000000
+      internalID: -685042032399058175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8bf98862e2a51e0800000000000000
+      internalID: -2208401924236003167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c86edcf78ff0d150800000000000000
+      internalID: 5895492871756081351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b32525793bcefe0800000000000000
+      internalID: -1158353541638505601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_F_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2277214d0b8f671e0800000000000000
+      internalID: -2200297929567996126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_B_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e94483b46d4c3d80800000000000000
+      internalID: -8269649720855213600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_R_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea4d50d2518e7bc0800000000000000
+      internalID: -3783444444261561630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple_L_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4aeb785b3d77350800000000000000
+      internalID: 6014508603996546292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_F_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4c740f69c905170800000000000000
+      internalID: 8165198296512971998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_B_2
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae26cb5949ddda30800000000000000
+      internalID: 4241785333148429988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_R_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266849a84feaaed80800000000000000
+      internalID: -8220565804491176350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Pants_L_2
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c9aeddf1d0ba480800000000000000
+      internalID: -8886995009167254423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f30ab2e571f36a20800000000000000
+      internalID: 3054550460904637428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0dda8ba9d9b2650800000000000000
+      internalID: 6209229799109284000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b578bf568c7c5e0800000000000000
+      internalID: -1889321178321429606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95036e6ce697e360800000000000000
+      internalID: 7198888471583458719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink_Hair_F_0
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b693a895e8256a0800000000000000
+      internalID: -6461946000100988007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink_Hair_B_0
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eee1ce1e79d12a0800000000000000
+      internalID: -6765084068655731171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink_Hair_R_0
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ce3858db9c63b60800000000000000
+      internalID: 7725584026626681939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink_Hair_L_0
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b287b7c0cf5550800000000000000
+      internalID: 6151847580021207318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clear
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 2413
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f76b16581ed67040a0413de1e40a355
+      internalID: 803942700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c346be2350f95c4e85baadb75b9c3cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlackL_Hair_B_0: 8333239053882578692
+      BlackL_Hair_F_0: 6989021764591077322
+      BlackL_Hair_L_0: -5751403519123877032
+      BlackL_Hair_R_0: -1644219059502099673
+      Black_Hair_B_0: -7731485532472707806
+      Black_Hair_F_0: -187407481318412078
+      Black_Hair_L_0: -5106425460568026498
+      Black_Hair_R_0: 664150154943936388
+      Black_Pants_B_0: -7953359210174705362
+      Black_Pants_B_1: 2075626623291389364
+      Black_Pants_B_2: 4241785333148429988
+      Black_Pants_F_0: -3383288998902977997
+      Black_Pants_F_1: 533767576636247257
+      Black_Pants_F_2: 8165198296512971998
+      Black_Pants_L_0: 7724487860179426349
+      Black_Pants_L_1: 721007066866945816
+      Black_Pants_L_2: -8886995009167254423
+      Black_Pants_R_0: 8629878925610603236
+      Black_Pants_R_1: -6784625056616527612
+      Black_Pants_R_2: -8220565804491176350
+      BlondeL_Hair_B_0: -1995511929226787429
+      BlondeL_Hair_F_0: -4077915239218143509
+      BlondeL_Hair_L_0: -3688422158310706195
+      BlondeL_Hair_R_0: 179307246149362410
+      Blonde_Hair_B_0: 6209229799109284000
+      Blonde_Hair_F_0: 3054550460904637428
+      Blonde_Hair_L_0: 7198888471583458719
+      Blonde_Hair_R_0: -1889321178321429606
+      BlueEye_F_0: -106639777452602370
+      BlueEye_F_1: 762254402863930934
+      BlueEye_L_0: -7083986874399634876
+      BlueEye_L_1: 7271902851257999649
+      BlueEye_R_0: -7376551480553666749
+      BlueEye_R_1: 5796636422268584402
+      Blue_B_0: -2505486465846664527
+      Blue_B_1: 354582022083183790
+      Blue_B_2: -3377613391173672522
+      Blue_F_0: -6165328094808312495
+      Blue_F_1: 2479211777853330043
+      Blue_F_2: -9212327484967226465
+      Blue_L_0: 470479624212799734
+      Blue_L_1: 1741969469754171327
+      Blue_L_2: 4973355454411248853
+      Blue_R_0: -6377281193769400299
+      Blue_R_1: -3679380085659894809
+      Blue_R_2: -1512769818277319375
+      BrownEye_F_0: -2782699526156786965
+      BrownEye_F_1: -1591839108940912185
+      BrownEye_L_0: -343334786742281634
+      BrownEye_L_1: -6242702104056220952
+      BrownEye_R_0: -5074827566196557335
+      BrownEye_R_1: -3178881789316304115
+      BrownL_Hair_B_0: -3658489116415839255
+      BrownL_Hair_F_0: -8747526007083889299
+      BrownL_Hair_L_0: -3165656790283926863
+      BrownL_Hair_R_0: 5352551325890176499
+      Brown_Hair_B_0: -6663755069364468711
+      Brown_Hair_F_0: -2921192610569660185
+      Brown_Hair_L_0: 5828024028232739560
+      Brown_Hair_R_0: 1762598610932203628
+      Clear: 803942700
+      GreenEye_F_0: -2772071576251147996
+      GreenEye_F_1: -5854372937020753754
+      GreenEye_L_0: -3305424513354354207
+      GreenEye_L_1: 4066244832114308946
+      GreenEye_R_0: -8136765465689993455
+      GreenEye_R_1: -3971062051871359157
+      GreenL_Hair_B_0: -1703599859206267407
+      GreenL_Hair_F_0: 7294636121429414925
+      GreenL_Hair_L_0: 1973934225334179884
+      GreenL_Hair_R_0: -7326362587772682619
+      Green_B_0: 5251380704032667885
+      Green_B_1: 5389397606837068036
+      Green_B_2: 2063220611577075018
+      Green_F_0: -6386831028589669861
+      Green_F_1: 2029682026085075671
+      Green_F_2: 6586534203179789086
+      Green_Hair_B_0: -2208401924236003167
+      Green_Hair_F_0: -685042032399058175
+      Green_Hair_L_0: -1158353541638505601
+      Green_Hair_R_0: 5895492871756081351
+      Green_L_0: -8704411516334347819
+      Green_L_1: 3043520230079854358
+      Green_L_2: -1771854978564418044
+      Green_R_0: -3455490866254965809
+      Green_R_1: -8132645000060257508
+      Green_R_2: -2315917182660244715
+      PinkL_Hair_B_0: 5621585678228218726
+      PinkL_Hair_F_0: -3459427715632192646
+      PinkL_Hair_L_0: -397579515916411368
+      PinkL_Hair_R_0: 2656167885493496665
+      Pink_Hair_B_0: -6765084068655731171
+      Pink_Hair_F_0: -6461946000100988007
+      Pink_Hair_L_0: 6151847580021207318
+      Pink_Hair_R_0: 7725584026626681939
+      Purple_B_0: 4385653165686597468
+      Purple_B_1: 5444704355336215679
+      Purple_B_2: -8269649720855213600
+      Purple_F_0: 4164172329698357254
+      Purple_F_1: 1413775058005998571
+      Purple_F_2: -2200297929567996126
+      Purple_L_0: 2281938690332609655
+      Purple_L_1: 1833922546849003139
+      Purple_L_2: 6014508603996546292
+      Purple_R_0: 3991092570295523712
+      Purple_R_1: 2566297488679322758
+      Purple_R_2: -3783444444261561630
+      Red_B_0: 6336811954807484400
+      Red_B_1: 6724702964533587067
+      Red_B_2: 4997097447380670826
+      Red_F_0: -4068703689396362570
+      Red_F_1: 8471927308233888813
+      Red_F_2: 4683065199134292000
+      Red_L_0: -1569120005163550739
+      Red_L_1: -370940508913825333
+      Red_L_2: -1073049286634586394
+      Red_R_0: 7154658890399413599
+      Red_R_1: 3701454378933763577
+      Red_R_2: -5109065545323739499
+      Yellow_B_0: 7946123754965703714
+      Yellow_B_1: 4061398341845400322
+      Yellow_B_2: -3721602903267444369
+      Yellow_F_0: 5603552385714567307
+      Yellow_F_1: -6158008090282208759
+      Yellow_F_2: 7778592565293093514
+      Yellow_L_0: 9018689613880629398
+      Yellow_L_1: -8918846747629035010
+      Yellow_L_2: 2367662567534118311
+      Yellow_R_0: -83319121058847394
+      Yellow_R_1: -4897342635657528850
+      Yellow_R_2: 2861459579327285030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
