@@ -67,7 +67,7 @@ public class CustomerScript : MonoBehaviour
                 {
                     if (Random.Range(1,4) == 3)
                     {
-                        allergyToSend = allergies[Random.Range(0, recipes.Length)];
+                        allergyToSend = allergies[Random.Range(0, allergies.length)];
                     } else {
                         allergyToSend = "None";
                     }
