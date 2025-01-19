@@ -19,4 +19,4 @@ MonoBehaviour:
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
-  allergen: 
+  allergen: Salt
