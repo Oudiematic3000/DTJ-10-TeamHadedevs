@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      meat mini game_bg_0: 1383154255021156468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
