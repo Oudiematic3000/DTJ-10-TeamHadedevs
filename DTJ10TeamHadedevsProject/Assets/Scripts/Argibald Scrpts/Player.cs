@@ -41,6 +41,7 @@ public class Player : MonoBehaviour
         Station.minigameStarted += disable;
         Minigame.endMinigameEvent += reEnable;
         Minigame.giveItemEvent += addItem;
+        PickUpScript.giveItem += addItem;
     }
 
     private void OnEnable()
