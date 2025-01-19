@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Pufferfish (Toxic)
   ingredientType: 4
-  sprite: {fileID: 0}
+  sprite: {fileID: 1410134041, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 1
   raw: 0
   products: []
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 

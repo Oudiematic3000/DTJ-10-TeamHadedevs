@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Cashews
   ingredientType: 3
-  sprite: {fileID: 0}
+  sprite: {fileID: 920149606, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
   raw: 0
   products: []

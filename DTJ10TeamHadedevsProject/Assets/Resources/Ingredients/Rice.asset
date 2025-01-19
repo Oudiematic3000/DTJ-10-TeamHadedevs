@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Rice
   ingredientType: 0
-  sprite: {fileID: 0}
+  sprite: {fileID: -1207974786, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
   raw: 1
   products:
   - {fileID: 11400000, guid: 752cd43041e160046bb9b7a313aa590d, type: 2}
   badPrepProduct: {fileID: 11400000, guid: 03c9a2230de34b7418f8d0df6e7b05cc, type: 2}
-  allergens: []
+  allergen: 

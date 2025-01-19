@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Rocket
   ingredientType: 2
-  sprite: {fileID: 0}
+  sprite: {fileID: -50644298, guid: 7c9eea653f797af45b4642b457a89e54, type: 3}
   toxic: 0
   raw: 1
   products:
   - {fileID: 11400000, guid: eab234583ef2763459ee06292e5d6501, type: 2}
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 

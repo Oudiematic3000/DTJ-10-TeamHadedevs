@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Salmon
   ingredientType: 1
-  sprite: {fileID: 0}
+  sprite: {fileID: 999535238, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
   raw: 1
   products:
   - {fileID: 11400000, guid: 1e53d5e3b3642da4ab5cd4c29f043223, type: 2}
   badPrepProduct: {fileID: 11400000, guid: 537e3d8b7390f4f4d98fbdc28f4e6408, type: 2}
-  allergens: []
+  allergen: 

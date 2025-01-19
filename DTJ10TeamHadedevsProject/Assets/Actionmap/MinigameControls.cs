@@ -62,6 +62,15 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Space"",
+                    ""type"": ""Button"",
+                    ""id"": ""ce206721-249a-4901-b8d8-6d47f18fe5ab"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -152,6 +161,28 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
                     ""action"": ""Down"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2e69d63f-bba6-4b32-88a9-aa177d80dd12"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Space"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8b346116-aa30-446a-934f-b3e1d3299c81"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Space"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -164,6 +195,7 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
         m_MinigameUIControls_Left = m_MinigameUIControls.FindAction("Left", throwIfNotFound: true);
         m_MinigameUIControls_Up = m_MinigameUIControls.FindAction("Up", throwIfNotFound: true);
         m_MinigameUIControls_Down = m_MinigameUIControls.FindAction("Down", throwIfNotFound: true);
+        m_MinigameUIControls_Space = m_MinigameUIControls.FindAction("Space", throwIfNotFound: true);
     }
 
     ~@MinigameControls()
@@ -234,6 +266,7 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_MinigameUIControls_Left;
     private readonly InputAction m_MinigameUIControls_Up;
     private readonly InputAction m_MinigameUIControls_Down;
+    private readonly InputAction m_MinigameUIControls_Space;
     public struct MinigameUIControlsActions
     {
         private @MinigameControls m_Wrapper;
@@ -242,6 +275,7 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
         public InputAction @Left => m_Wrapper.m_MinigameUIControls_Left;
         public InputAction @Up => m_Wrapper.m_MinigameUIControls_Up;
         public InputAction @Down => m_Wrapper.m_MinigameUIControls_Down;
+        public InputAction @Space => m_Wrapper.m_MinigameUIControls_Space;
         public InputActionMap Get() { return m_Wrapper.m_MinigameUIControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -263,6 +297,9 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
             @Down.started += instance.OnDown;
             @Down.performed += instance.OnDown;
             @Down.canceled += instance.OnDown;
+            @Space.started += instance.OnSpace;
+            @Space.performed += instance.OnSpace;
+            @Space.canceled += instance.OnSpace;
         }
 
         private void UnregisterCallbacks(IMinigameUIControlsActions instance)
@@ -279,6 +316,9 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
             @Down.started -= instance.OnDown;
             @Down.performed -= instance.OnDown;
             @Down.canceled -= instance.OnDown;
+            @Space.started -= instance.OnSpace;
+            @Space.performed -= instance.OnSpace;
+            @Space.canceled -= instance.OnSpace;
         }
 
         public void RemoveCallbacks(IMinigameUIControlsActions instance)
@@ -302,5 +342,6 @@ public partial class @MinigameControls: IInputActionCollection2, IDisposable
         void OnLeft(InputAction.CallbackContext context);
         void OnUp(InputAction.CallbackContext context);
         void OnDown(InputAction.CallbackContext context);
+        void OnSpace(InputAction.CallbackContext context);
     }
 }

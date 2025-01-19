@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientName: Rhubarb
   ingredientType: 2
-  sprite: {fileID: 0}
+  sprite: {fileID: -595016301, guid: 45dc45a4c09e31f49be2cdacc965e491, type: 3}
   toxic: 0
   raw: 1
   products:
   - {fileID: 11400000, guid: f085091d86238e14eae4a15bc770a500, type: 2}
   - {fileID: 11400000, guid: 52874081841aa904fb50f9e6b48f72b9, type: 2}
   badPrepProduct: {fileID: 0}
-  allergens: []
+  allergen: 
