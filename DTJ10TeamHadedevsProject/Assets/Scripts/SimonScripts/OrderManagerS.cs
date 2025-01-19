@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class OrderManagerS : MonoBehaviour
 {
@@ -101,5 +102,11 @@ public class OrderManagerS : MonoBehaviour
     {
         if(activeTicket.isTarget) { Debug.Log("win"); winPanel.SetActive(true); }
         else { Debug.Log("Gameover"); losePanel.SetActive(true); }
+    }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene("RestaurantA");
+        SceneManager.LoadScene("Player", LoadSceneMode.Additive);
     }
 }
