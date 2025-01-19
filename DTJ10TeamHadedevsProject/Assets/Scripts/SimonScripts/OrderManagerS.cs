@@ -12,9 +12,14 @@ public class OrderManagerS : MonoBehaviour
     public List<Ingredient> playerDish= new List<Ingredient>();
     public static event Action<TicketClass> ticketMade;
 
+    [SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject losePanel;
+
     private void Start()
     {
         ticketText = GameObject.Find("TicketText").GetComponent<TextMeshProUGUI>();
+        winPanel.SetActive(false);
+        losePanel.SetActive(false);
     }
     private void Awake()
     {
@@ -67,6 +72,7 @@ public class OrderManagerS : MonoBehaviour
             {
                 //gameover
                 Debug.Log("Gameover");
+                losePanel.SetActive(true);
                 return;
             }
         }
@@ -93,7 +99,7 @@ public class OrderManagerS : MonoBehaviour
     
     public void killActive()
     {
-        if(activeTicket.isTarget) { Debug.Log("win"); }
-        else { Debug.Log("Gameover"); }
+        if(activeTicket.isTarget) { Debug.Log("win"); winPanel.SetActive(true); }
+        else { Debug.Log("Gameover"); losePanel.SetActive(true); }
     }
 }
