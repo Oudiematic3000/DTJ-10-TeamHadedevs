@@ -66,6 +66,13 @@ public class Station : MonoBehaviour
                         minigameStarted();
                     }
                     break;
+                case stationType.Assembly:
+                    if (hand.transform.childCount > 0)
+                    {
+                        SceneManager.LoadSceneAsync("Minigame_Assembly", LoadSceneMode.Additive);
+                        minigameStarted();
+                    }
+                    break;
                 case stationType.Prep:
                     SceneManager.LoadSceneAsync("Minigame_Prep", LoadSceneMode.Additive);
                     minigameStarted();

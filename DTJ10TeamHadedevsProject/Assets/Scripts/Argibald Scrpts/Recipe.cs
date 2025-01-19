@@ -25,4 +25,14 @@ public class Recipe : ScriptableObject
             }
         }
     }
+
+    public string display()
+    {
+        string output = "<u><b>"+name+"</u></b>";
+        foreach(Ingredient ingredient in ingredients)
+        {
+            output += "\n   " + ingredient.ingredientName;
+        }
+        return output;
+    }
 }
